@@ -1420,6 +1420,20 @@
             "image": "gamesimages/wheelielife.png",
             "link": "games/wheelielife.html",
             "category": "driving"
+        },
+
+        {
+            "title": "Ultrakill",
+            "image": "gamesimages/ultrakill.png",
+            "link": "games/ultrakill.html",
+            "category": "shooting"
+        },
+
+        {
+            "title": "Five Nights At Epsitens",
+            "image": "gamesimages/fnae.png",
+            "link": "games/fnae.html",
+            "category": "skill"
         }
     ]
 }
