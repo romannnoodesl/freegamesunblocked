@@ -1434,6 +1434,13 @@
             "image": "gamesimages/fnae.png",
             "link": "games/fnae.html",
             "category": "skill"
+        },
+
+        {
+            "title": "Fly the Plane",
+            "image": "gamesimages/flytheplane.png",
+            "link": "games/flytheplane.html",
+            "category": "skill"
         }
     ]
 }
