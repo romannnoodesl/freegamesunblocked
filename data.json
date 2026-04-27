@@ -1441,6 +1441,27 @@
             "image": "gamesimages/flytheplane.png",
             "link": "games/flytheplane.html",
             "category": "skill"
+        },
+
+        {
+            "title": "Fancy Pants Adventure World 1",
+            "image": "gamesimages/fancypants1.png",
+            "link": "games/fancypants1.html",
+            "category": "skill"
+        },
+
+        {
+            "title": "Fancy Pants Adventure World 2",
+            "image": "gamesimages/fancypants2.png",
+            "link": "games/fancypants2.html",
+            "category": "skill"
+        },
+
+        {
+            "title": "Fancy Pants Adventure World 3",
+            "image": "gamesimages/fancypants3.png",
+            "link": "games/fancypants3.html",
+            "category": "skill"
         }
     ]
 }
