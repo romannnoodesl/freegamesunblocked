@@ -497,6 +497,14 @@
         },
 
         {
+            "title": "Papa's Taco Mia",
+            "image": "gamesimages/papastacomia.png",
+            "link": "games/papastacomia.html",
+            "category": "skill",
+            "group": "Papa"
+        },
+
+        {
             "title": "There is no Game",
             "image": "gamesimages/thereisnogame.png",
             "link": "games/thereisnogame.html"
