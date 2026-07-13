@@ -1,0 +1,27 @@
+# Free Games Unblocked
+
+> Free Games Unblocked is a free online games portal hosting 200+ browser games that work at school or work with no downloads, no sign-ups, and no restrictions. Games are organized into categories: driving, skill, shooting, retro, and calm.
+
+## Sitemap
+- https://freegamesunblocked.org/sitemap.xml
+
+## Key pages
+- [Home](https://freegamesunblocked.org/)
+- [Driving Games](https://freegamesunblocked.org/driving.html)
+- [Skill Games](https://freegamesunblocked.org/skill.html)
+- [Shooting Games](https://freegamesunblocked.org/shooting.html)
+- [Retro Games](https://freegamesunblocked.org/retro.html)
+- [Calm Games](https://freegamesunblocked.org/calm.html)
+- [Random Sports](https://freegamesunblocked.org/random.html)
+- [Papa's Alley](https://freegamesunblocked.org/papasalley.html)
+- [Suggestions](https://freegamesunblocked.org/suggestions.html)
+
+## Policies & meta
+- [404 page](https://freegamesunblocked.org/404.html)
+- [ads.txt](https://freegamesunblocked.org/ads.txt)
+- [humans.txt](https://freegamesunblocked.org/humans.txt)
+- [security.txt](https://freegamesunblocked.org/.well-known/security.txt)
+- [Web App Manifest](https://freegamesunblocked.org/site.webmanifest)
+
+## About
+Free Games Unblocked is maintained by Jack Malczewski. All games are embedded from their original sources via iframe/object tags; the site itself does not host game binaries. For takedown requests see security.txt.

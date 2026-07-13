@@ -1,0 +1,25 @@
+{
+  "name": "Free Games Unblocked",
+  "short_name": "Free Games",
+  "description": "Play 200+ free unblocked games online at school or work. No downloads, no restrictions. Driving, skill, shooting, retro and calm games.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f4",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment"]
+}

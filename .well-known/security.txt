@@ -1,0 +1,3 @@
+Contact: mailto:contact@freegamesunblocked.org
+Preferred-Language: en
+Canonical: https://freegamesunblocked.org/.well-known/security.txt

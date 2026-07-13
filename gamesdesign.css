@@ -140,5 +140,135 @@ h1 {
 }
 
 #scrollToTopBtn:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
+}
+
+/* ===== Top navigation (responsive, replaces absolute-positioned links) ===== */
+.site-nav {
+    background: #1a1a2e;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.site-nav a {
+    font-family: Montserrat, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+    background: #0056b3;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .site-nav {
+        justify-content: flex-start;
+        font-size: 13px;
+    }
+    .site-nav a {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+}
+
+/* ===== Breadcrumbs ===== */
+.breadcrumbs {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.breadcrumbs a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Ad slots ===== */
+.ad-slot {
+    max-width: 1000px;
+    margin: 15px auto;
+    min-height: 90px;
+    text-align: center;
+}
+
+/* ===== Game frame (wrapper for iframe/object on game pages) ===== */
+.game-frame {
+    width: 100%;
+    min-height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+
+.game-frame iframe,
+.game-frame object,
+.game-frame embed {
+    width: 100%;
+    height: 70vh;
+    border: none;
+    display: block;
+}
+
+/* ===== Game description section ===== */
+.game-description {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+}
+
+.game-description a {
+    color: #007bff;
+}
+
+/* ===== Site footer ===== */
+.site-footer {
+    background: #1a1a2e;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.site-footer a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Hero / intro on home ===== */
+.hero {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero p {
+    line-height: 1.6;
+    color: #555;
 }

@@ -1,4 +1,14 @@
-User-agent: *
-Disallow:
+# robots.txt - https://freegamesunblocked.org/
+# Allow all crawlers full access; disallow only non-content asset folders.
 
-Sitemap: https://iammister1.github.io/unblocked-games-21/sitemap.xml
+User-agent: *
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /scripts/
+Allow: /
+
+# Crawl delay (seconds) - keep low; static site is fast
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://freegamesunblocked.org/sitemap.xml

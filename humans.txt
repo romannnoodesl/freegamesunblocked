@@ -1,0 +1,18 @@
+# humans.txt
+# https://humanstxt.org/
+
+/* TEAM */
+
+Creator: Jack Malczewski
+Contact: see https://freegamesunblocked.org/
+
+/* THANKS */
+
+To all the open-source game developers whose work is featured here.
+
+/* SITE */
+
+Last update: 2026
+Language: English
+Standards: HTML5, CSS3, JavaScript
+Software: hand-coded + Node.js build script
