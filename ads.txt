@@ -1,7 +1,6 @@
 # ads.txt
 # Authorized digital sellers. See https://iabtechlab.com/ads-txt/
 #
-# Replace pub-XXXXXXXXXXXXXXXX with your real AdSense publisher ID
-# (found in your AdSense account at Account > Account information).
+# Your AdSense publisher ID (Account > Account information).
 #
-google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-9521685727551779, DIRECT, f08c47fec0942fa0
