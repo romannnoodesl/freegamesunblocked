@@ -350,6 +350,99 @@ h1 {
     }
 }
 
+/* ===== Category Spotlight ===== */
+.category-spotlight {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #0f3460, #16213e);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.spot-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.spot-badge {
+    display: inline-block;
+    background: #e94560;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.spot-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.spot-title:hover {
+    text-decoration: underline;
+}
+
+.spot-cards {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.spot-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    width: 160px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.spot-card:hover {
+    transform: scale(1.03);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.spot-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.spot-card span {
+    display: block;
+    color: #ccc;
+    font-size: 13px;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .category-spotlight {
+        padding: 12px;
+    }
+    .spot-card {
+        width: 130px;
+    }
+    .spot-title {
+        font-size: 16px;
+    }
+}
+
 /* ===== Cookie consent banner ===== */
 .cookie-banner {
     position: fixed;

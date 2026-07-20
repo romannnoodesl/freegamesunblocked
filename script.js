@@ -31,12 +31,79 @@ function renderGameOfTheDay(gotd) {
   document.getElementById('gotdPlayLink').href = gotd.game.link;
 }
 
+const CATEGORIES = ['skill', 'driving', 'shooting', 'retro', 'calm'];
+const CATEGORY_LABELS = {
+  skill: 'Skill Games',
+  driving: 'Driving Games',
+  shooting: 'Shooting Games',
+  retro: 'Retro Games',
+  calm: 'Calm Games'
+};
+const CATEGORY_PAGES = {
+  skill: '/skill.html',
+  driving: '/driving.html',
+  shooting: '/shooting.html',
+  retro: '/retro.html',
+  calm: '/calm.html'
+};
+
+function getWeekNumber(date) {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+}
+
+function getCategorySpotlight(games) {
+  const week = getWeekNumber(new Date());
+  const catIndex = (week + new Date().getFullYear()) % CATEGORIES.length;
+  const category = CATEGORIES[catIndex];
+  const catGames = games.filter(g => g.category === category);
+  if (catGames.length < 2) return null;
+  // deterministic daily pick from the pool
+  const seed = new Date().toISOString().slice(0, 10);
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) { h = ((h << 5) - h) + seed.charCodeAt(i); h |= 0; }
+  const p1 = Math.abs(h) % catGames.length;
+  const p2 = Math.abs(h + 1) % catGames.length;
+  const picks = [catGames[p1]];
+  if (p1 !== p2) picks.push(catGames[p2]);
+  return {
+    label: CATEGORY_LABELS[category],
+    page: CATEGORY_PAGES[category],
+    games: picks
+  };
+}
+
+function renderCategorySpotlight(spotlight) {
+  const el = document.getElementById('categorySpotlight');
+  if (!el) return;
+  el.innerHTML = '';
+  const header = document.createElement('div');
+  header.className = 'spot-header';
+  header.innerHTML = '<span class="spot-badge">This Week</span><a class="spot-title" href="' + spotlight.page + '">' + spotlight.label + '</a>';
+  el.appendChild(header);
+  const cards = document.createElement('div');
+  cards.className = 'spot-cards';
+  spotlight.games.forEach(g => {
+    const card = document.createElement('a');
+    card.className = 'spot-card';
+    card.href = g.link;
+    card.innerHTML = '<img src="' + g.image + '" alt="' + g.title + '" loading="lazy"><span>' + g.title + '</span>';
+    cards.appendChild(card);
+  });
+  el.appendChild(cards);
+}
+
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     allGames = data.games;
     const gotd = getGameOfTheDay(allGames);
     renderGameOfTheDay(gotd);
+    const spotlight = getCategorySpotlight(allGames);
+    if (spotlight) renderCategorySpotlight(spotlight);
     const remaining = allGames.filter((_, i) => i !== gotd.index);
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q');
@@ -117,4 +184,9 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollToTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  const lastUpdated = document.getElementById('lastUpdated');
+  if (lastUpdated) {
+    lastUpdated.textContent = new Date().toISOString().slice(0, 10);
+  }
 });
