@@ -273,6 +273,83 @@ h1 {
     color: #555;
 }
 
+/* ===== Game of the Day ===== */
+.game-of-the-day {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.gotd-badge {
+    display: inline-block;
+    background: #ff6b35;
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.gotd-date {
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.game-of-the-day img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.game-of-the-day img:hover {
+    transform: scale(1.03);
+}
+
+.game-of-the-day h2 {
+    color: #fff;
+    font-size: 22px;
+    margin: 12px 0 6px;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+.gotd-play-btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin-top: 6px;
+}
+
+.gotd-play-btn:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .game-of-the-day {
+        padding: 15px;
+    }
+    .game-of-the-day h2 {
+        font-size: 18px;
+    }
+}
+
 /* ===== Cookie consent banner ===== */
 .cookie-banner {
     position: fixed;

@@ -1,10 +1,43 @@
 let gamesnumber = 0;
 let allGames = [];
 
+function getGameOfTheDay(games) {
+  const today = new Date();
+  const seed = today.getFullYear() + '-' +
+    String(today.getMonth() + 1).padStart(2, '0') + '-' +
+    String(today.getDate()).padStart(2, '0');
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) {
+    hash = ((hash << 5) - hash) + seed.charCodeAt(i);
+    hash |= 0;
+  }
+  const index = Math.abs(hash) % games.length;
+  const dayLabel = today.toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric'
+  });
+  return { game: games[index], index, dayLabel };
+}
+
+function renderGameOfTheDay(gotd) {
+  const el = document.getElementById('gameOfTheDay');
+  if (!el) return;
+  document.getElementById('gotdDate').textContent = gotd.dayLabel;
+  document.getElementById('gotdImage').src = gotd.game.image;
+  document.getElementById('gotdImage').alt = gotd.game.title;
+  document.getElementById('gotdTitle').textContent = gotd.game.title;
+  document.getElementById('gotdLink').href = gotd.game.link;
+  document.getElementById('gotdPlayLink').href = gotd.game.link;
+}
+
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     allGames = data.games;
+    const gotd = getGameOfTheDay(allGames);
+    renderGameOfTheDay(gotd);
+    const remaining = allGames.filter((_, i) => i !== gotd.index);
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q');
     if (q) {
@@ -12,7 +45,7 @@ fetch('data.json')
       const filtered = filterGames(q);
       renderGames(filtered);
     } else {
-      renderGames(allGames);
+      renderGames(remaining);
     }
     countGames(allGames);
   })
