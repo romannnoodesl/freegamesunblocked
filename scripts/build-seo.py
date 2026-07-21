@@ -282,18 +282,44 @@ def build_category_page(cat_key, games):
     cfg = CATEGORY_CONFIG[cat_key]
     file_name = cfg["file"]
     canonical = f"{BASE_URL}/{file_name}"
+    total = len(games)
+    visible = games[:20]
+    remaining = games[20:]
+    filter_key = cfg.get("filter_key", "category")
+    filter_value = cfg.get("filter_value", cat_key)
 
     jsonld = collectionpage_jsonld(cfg["label"], canonical, cfg["desc_schema"]) + "\n    " + breadcrumb_jsonld([
         ("Home", f"{BASE_URL}/"),
         (cfg["label"], canonical),
     ])
 
+    js_load_remaining = ""
+    if remaining:
+        js_load_remaining = f"""
+<script>
+(function(){{
+  if (!document.getElementById('gameContainer')) return;
+  fetch('data.json').then(function(r){{return r.json()}}).then(function(d){{
+    var games = d.games.filter(function(g){{return g['{filter_key}']==='{filter_value}'}});
+    var existing = {len(visible)};
+    var container = document.getElementById('gameContainer');
+    for (var i=existing; i<games.length; i++){{
+      var g=games[i];
+      var el = document.createElement('div');
+      el.className = 'game';
+      el.innerHTML = '<a href="'+g.link+'"><img src="'+g.image+'" alt="'+g.title+'" loading="lazy" width="200" height="150" decoding="async"></a><h2 class="game-title"><a href="'+g.link+'">'+g.title+'</a></h2>';
+      container.appendChild(el);
+    }}
+  }}).catch(function(){{}});
+}})();
+</script>"""
+
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     {resource_hints()}
     {head_common(cfg["title"], cfg["desc_meta"], canonical, jsonld=jsonld)}
-    <link rel="stylesheet" href="gamesdesign.css">
+    <link rel="stylesheet" href="gamesdesign.min.css">
 </head>
 <body>
     <nav class="site-nav" aria-label="Main navigation">
@@ -302,12 +328,12 @@ def build_category_page(cat_key, games):
 
     {breadcrumbs_html([("Home", "/"), (cfg["label"], file_name)])}
 
-    <h1>{html_escape(cfg["label"])}</h1>
+    <h1>{html_escape(cfg["label"])} — {total} Games</h1>
     <div class="hero"><p>{html_escape(cfg["hero"])}</p></div>
-    <div class="game-container">
-        {game_grid(games)}
+    <div class="game-container" id="gameContainer">
+        {game_grid(visible)}
     </div>
-
+{js_load_remaining}
     {footer_html()}
 
     {cookieconsent_and_miner()}
@@ -345,7 +371,7 @@ def build_index_page(all_games):
 <head>
     {resource_hints()}
     {head_common(title, desc_meta, canonical, jsonld=jsonld)}
-    <link rel="stylesheet" href="gamesdesign.css">
+    <link rel="stylesheet" href="gamesdesign.min.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -530,7 +556,7 @@ def build_game_pages(all_games):
 <head>
     {resource_hints()}
     {head_common(page_title, desc, canonical, image=image, jsonld=jsonld + '\\n    ' + breadcrumb_ld)}
-    <link rel="stylesheet" href="/gamesdesign.css">
+    <link rel="stylesheet" href="/gamesdesign.min.css">
 </head>
 <body>
     <nav class="site-nav" aria-label="Main navigation">
@@ -736,11 +762,6 @@ def main():
     print("\n--- Building sitemap ---")
     url_count = build_sitemap(all_games)
     print(f"  sitemap.xml: {url_count} URLs")
-
-    # --- 6. Generate WebP images ---
-    print("\n--- Generating WebP thumbnails ---")
-    webp_count = generate_webp_images(all_games)
-    print(f"  {webp_count} WebP images generated")
 
     print("\n✅ build-seo.py complete!\n")
 
