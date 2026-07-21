@@ -48,6 +48,22 @@ h1 {
     color: #333;
 }
 
+.game-title {
+    font-size: 14px;
+    margin: 6px 0 0;
+    font-weight: bold;
+}
+
+.game-title a {
+    margin-top: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.game-title a:hover {
+    color: #007bff;
+}
+
 #drivinglink {
     position: absolute;
     font-family: Montserrat;
@@ -518,4 +534,35 @@ h1 {
     .cookie-btn {
         flex: 1;
     }
+}
+
+/* ===== Related Games section ===== */
+.related-games {
+    max-width: 1000px;
+    margin: 30px auto 20px;
+    padding: 0 20px;
+}
+
+.related-games h2 {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* ===== Blog link on home ===== */
+.blog-link {
+    display: inline-block;
+    background: #007bff;
+    color: #fff !important;
+    padding: 5px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat, Arial, sans-serif;
+    margin-top: 6px;
+}
+
+.blog-link:hover {
+    background: #0056b3;
 }

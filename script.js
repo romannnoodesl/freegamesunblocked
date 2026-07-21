@@ -155,7 +155,7 @@ function renderGames(games) {
     gameElement.classList.add('game');
     gameElement.innerHTML = `
       <a href="${game.link}"><img src="${game.image}" alt="${game.title}" loading="lazy" width="200" height="150"></a>
-      <a href="${game.link}">${game.title}</a>
+      <h2 class="game-title"><a href="${game.link}">${game.title}</a></h2>
     `;
     gameContainer.appendChild(gameElement);
   });

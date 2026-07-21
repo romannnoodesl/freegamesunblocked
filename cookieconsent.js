@@ -1,4 +1,9 @@
 (function () {
+    // Register Service Worker for offline caching and performance
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(function () {});
+    }
+
     var STORAGE_KEY = 'cookieConsent';
     var consent = null;
     try { consent = localStorage.getItem(STORAGE_KEY); } catch (e) {}
