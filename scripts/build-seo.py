@@ -274,6 +274,10 @@ def cookieconsent_and_miner():
     )
 
 
+def cookieconsent_only():
+    return '<script src="cookieconsent.js"></script>'
+
+
 def lastupdated_script():
     return '<script>document.getElementById("lastUpdated").textContent=new Date().toISOString().slice(0,10)</script>'
 
@@ -596,7 +600,7 @@ def build_game_pages(all_games):
 {related_section}
     {footer_html()}
 
-    {cookieconsent_and_miner()}
+    {cookieconsent_only()}
 {lastupdated_script()}
 </body>
 </html>
