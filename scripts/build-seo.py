@@ -386,8 +386,6 @@ def build_index_page(all_games):
     <h1>Free Games Unblocked</h1>
 
     <div class="hero">
-        <p>By Roman Noodles</p>
-        <p>Check out earnify.cc or scenemo.com!</p>
         <p id="gamesnumber">Games = 0</p>
     </div>
 
