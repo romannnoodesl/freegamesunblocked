@@ -1,6 +1,6 @@
 # Free Games Unblocked
 
-> Free Games Unblocked is a free online games portal hosting 200+ browser games that work at school or work with no downloads, no sign-ups, and no restrictions. Games are organized into categories: driving, skill, shooting, retro, and calm.
+> Free Games Unblocked is a free online games portal hosting 212+ browser games that work at school or work with no downloads, no sign-ups, and no restrictions. Games are organized into categories: driving, skill, shooting, retro, and calm.
 
 ## Sitemap
 - https://freegamesunblocked.org/sitemap.xml
@@ -15,8 +15,10 @@
 - [Random Sports](https://freegamesunblocked.org/random.html)
 - [Papa's Alley](https://freegamesunblocked.org/papasalley.html)
 - [Suggestions](https://freegamesunblocked.org/suggestions.html)
+- [Blog - Best Games & Guides](https://freegamesunblocked.org/blog.html)
 
 ## Policies & meta
+- [Privacy Policy](https://freegamesunblocked.org/privacy.html)
 - [404 page](https://freegamesunblocked.org/404.html)
 - [ads.txt](https://freegamesunblocked.org/ads.txt)
 - [humans.txt](https://freegamesunblocked.org/humans.txt)

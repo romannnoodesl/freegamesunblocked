@@ -1,26 +1,23 @@
 {
     "games": [
-                {
+        {
             "title": "Grow A Garden Unblocked",
             "image": "gamesimages/growagarden.png",
             "link": "games/growagarden.html",
             "category": "calm"
         },
-
         {
             "title": "Steal A Brainrot Unblocked",
             "image": "gamesimages/stealabrainrot.png",
             "link": "games/stealabrainrot.html",
             "category": "calm"
         },
-
         {
             "title": "Minecraft Java",
             "image": "gamesimages/minecraft.png",
             "link": "games/minecraft.html",
             "category": "skill"
         },
-
         {
             "title": "Slope",
             "image": "gamesimages/slope.png",
@@ -39,15 +36,12 @@
             "link": "games/ovo.html",
             "category": "skill"
         },
-
         {
             "title": "Ovo 2",
             "image": "gamesimages/ovo2.png",
             "link": "games/ovo2.html",
             "category": "skill"
         },
-
-
         {
             "title": "Subway Surfers",
             "image": "gamesimages/subwaysurfers.png",
@@ -90,35 +84,30 @@
             "link": "games/motox3m.html",
             "category": "driving"
         },
-
         {
             "title": "Moto X3M Pool Party",
             "image": "gamesimages/motox3mpp.png",
             "link": "games/motox3mpp.html",
             "category": "driving"
         },
-
         {
             "title": "Moto X3M Spooky Land",
             "image": "gamesimages/motox3msl.png",
             "link": "games/motox3msl.html",
             "category": "driving"
         },
-
         {
             "title": "Moto X3M Winter",
             "image": "gamesimages/motox3mwinter.png",
             "link": "games/motox3mwinter.html",
             "category": "driving"
         },
-
         {
             "title": "MotoX3M 2",
             "image": "gamesimages/motox3m2.png",
             "link": "games/motox3m2.html",
             "category": "driving"
         },
-
         {
             "title": "2 Player Battle",
             "image": "gamesimages/2playerbattle.png",
@@ -140,53 +129,50 @@
         {
             "title": "Duck Life",
             "image": "gamesimages/ducklife.png",
-            "link": "games/ducklife.html"
+            "link": "games/ducklife.html",
+            "category": "skill"
         },
         {
             "title": "Duck Life 2",
             "image": "gamesimages/ducklife2.png",
-            "link": "games/ducklife2.html"
+            "link": "games/ducklife2.html",
+            "category": "skill"
         },
-
         {
             "title": "Duck Life 3",
             "image": "gamesimages/ducklife3.png",
-            "link": "games/ducklife3.html"
+            "link": "games/ducklife3.html",
+            "category": "skill"
         },
-
         {
             "title": "Duck Life 4",
             "image": "gamesimages/ducklife4.png",
-            "link": "games/ducklife4.html"
+            "link": "games/ducklife4.html",
+            "category": "skill"
         },
-
-
         {
             "title": "World's Hardest Game",
             "image": "gamesimages/worldshardestgame.png",
             "link": "games/worldshardestgame.html",
             "category": "skill"
         },
-
         {
             "title": "World's Hardest Game 2",
             "image": "gamesimages/worldshardestgame2.png",
             "link": "games/worldshardestgame2.html",
             "category": "skill"
         },
-
-                {
+        {
             "title": "World's Hardest Game 3",
             "image": "gamesimages/worldshardestgame3.png",
             "link": "games/worldshardestgame3.html",
             "category": "skill"
         },
-
-
         {
             "title": "Path of Light",
             "image": "gamesimages/pathoflight.png",
-            "link": "games/pathoflight.html"
+            "link": "games/pathoflight.html",
+            "category": "skill"
         },
         {
             "title": "Unlimited Wordle",
@@ -209,9 +195,9 @@
         {
             "title": "Fruit Ninja",
             "image": "gamesimages/fruitninja.png",
-            "link": "games/fruitninja.html"
+            "link": "games/fruitninja.html",
+            "category": "skill"
         },
-
         {
             "title": "Super Mario 64",
             "image": "gamesimages/supermario64.png",
@@ -233,7 +219,8 @@
         {
             "title": "Basketball Stars",
             "image": "gamesimages/basketballstars.png",
-            "link": "games/basketballstars.html"
+            "link": "games/basketballstars.html",
+            "category": "skill"
         },
         {
             "title": "Globle Unlimited",
@@ -250,70 +237,63 @@
         {
             "title": "xx142b2.exe",
             "image": "gamesimages/xx142b2.exe.png",
-            "link": "games/xx142b2.exe.html"
+            "link": "games/xx142b2.exe.html",
+            "category": "shooting"
         },
-        
         {
             "title": "Obby Robby",
             "image": "gamesimages/obbyrobby.png",
-            "link": "games/obbyrobby.html"
+            "link": "games/obbyrobby.html",
+            "category": "skill"
         },
-
         {
             "title": "Infinite Craft",
             "image": "gamesimages/infinitecraft.png",
             "link": "games/infinitecraft.html",
             "category": "calm"
         },
-
         {
             "title": "PolyTrack",
             "image": "gamesimages/polytrack.png",
             "link": "games/polytrack.html",
             "category": "driving"
         },
-
         {
             "title": "Cookie Clicker",
             "image": "gamesimages/cookieclicker.png",
             "link": "games/cookieclicker.html",
             "category": "calm"
         },
-
         {
             "title": "We Come What we Behold",
             "image": "gamesimages/webecomewhatwebehold.png",
-            "link": "games/webecomewhatwebehold.html"
+            "link": "games/webecomewhatwebehold.html",
+            "category": "calm"
         },
-
         {
             "title": "BitLife",
             "image": "gamesimages/bitlife.png",
             "link": "games/bitlife.html",
             "category": "skill"
         },
-
         {
             "title": "Jumping Shell",
             "image": "gamesimages/jumpingshell.png",
             "link": "games/jumpingshell.html",
             "category": "skill"
         },
-
         {
             "title": "Fireboy and Watergirl",
             "image": "gamesimages/fireboyandwatergirl.png",
             "link": "games/fireboyandwatergirl.html",
             "category": "skill"
         },
-
         {
             "title": "Pacman",
             "image": "gamesimages/pacman.png",
             "link": "games/pacman.html",
             "category": "retro"
         },
-
         {
             "title": "Boxing Random",
             "image": "gamesimages/boxingrandom.png",
@@ -321,7 +301,6 @@
             "category": "skill",
             "group": "Random"
         },
-
         {
             "title": "Volley Random",
             "image": "gamesimages/volleyrandom.png",
@@ -329,116 +308,99 @@
             "category": "skill",
             "group": "Random"
         },
-
-                {
+        {
             "title": "Soccer Random",
             "image": "gamesimages/soccerrandom.png",
             "link": "games/soccerrandom.html",
             "category": "skill",
             "group": "Random"
         },
-
-                {
+        {
             "title": "Basket Random",
             "image": "gamesimages/basketrandom.png",
             "link": "games/basketrandom.html",
             "category": "skill",
             "group": "Random"
         },
-
-                {
+        {
             "title": "Archery Random",
             "image": "gamesimages/archeryrandom.png",
             "link": "games/archeryrandom.html",
             "category": "shooting",
             "group": "Random"
         },
-
-
         {
             "title": "Super Mario Bros",
             "image": "gamesimages/supermariobros.png",
             "link": "games/supermariobros.html",
             "category": "retro"
         },
-
         {
             "title": "Stick Defenders",
             "image": "gamesimages/stickdefenders.png",
             "link": "games/stickdefenders.html",
             "category": "skill"
         },
-
         {
             "title": "Super Star Car",
             "image": "gamesimages/superstarcar.png",
             "link": "games/superstarcar.html",
             "category": "driving"
         },
-
         {
             "title": "Moto Maniac 2",
             "image": "gamesimages/motomaniac.png",
             "link": "games/motomaniac2.html",
             "category": "driving"
         },
-
         {
             "title": "Stickman Hook",
             "image": "gamesimages/stickmanhook.png",
             "link": "games/stickmanhook.html",
             "category": "skill"
         },
-
         {
             "title": "Stick Merge",
             "image": "gamesimages/stickmerge.png",
             "link": "games/stickmerge.html",
             "category": "skill"
         },
-
         {
             "title": "Murder",
             "image": "gamesimages/murder.png",
             "link": "games/murder.html",
             "category": "skill"
         },
-
         {
             "title": "Moving Truck Bounty",
             "image": "gamesimages/movingtruckbounty.png",
             "link": "games/movingtruckbounty.html",
             "category": "driving"
         },
-
         {
             "title": "Cyber Cars Punk Racing",
             "image": "gamesimages/cybercarspunkracing.png",
             "link": "games/cybercarspunkracing.html",
             "category": "driving"
         },
-
         {
             "title": "Survival Karts",
             "image": "gamesimages/survivalkarts.png",
             "link": "games/survivalkarts.html",
             "category": "driving"
         },
-
         {
             "title": "DVD Screensaver",
             "image": "gamesimages/dvdscreensaver.png",
             "link": "games/dvdscreensaver.html",
             "category": "calm"
         },
-
         {
             "title": "Block Blast",
             "image": "gamesimages/blockblast.png",
             "link": "games/blockblast.html",
             "category": "calm"
         },
-
         {
             "title": "Papa's Freezeria",
             "image": "gamesimages/papasfreeezeria.png",
@@ -446,16 +408,13 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Pizzeria",
             "image": "gamesimages/papaspizzeria.png",
             "link": "games/papaspizzeria.html",
             "category": "skill",
             "group": "Papa"
-
         },
-
         {
             "title": "Papa's Burgeria",
             "image": "gamesimages/papasburgeria.png",
@@ -463,7 +422,6 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Cupcakeria",
             "image": "gamesimages/papascupcakeria.png",
@@ -471,7 +429,6 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Pancakeria",
             "image": "gamesimages/papaspancakeria.png",
@@ -479,7 +436,6 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Susheria",
             "image": "gamesimages/papassusheria.png",
@@ -487,7 +443,6 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Donuteria",
             "image": "gamesimages/papasdonuteria.png",
@@ -495,7 +450,6 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "Papa's Taco Mia",
             "image": "gamesimages/papastacomia.png",
@@ -503,968 +457,828 @@
             "category": "skill",
             "group": "Papa"
         },
-
         {
             "title": "There is no Game",
             "image": "gamesimages/thereisnogame.png",
-            "link": "games/thereisnogame.html"
+            "link": "games/thereisnogame.html",
+            "category": "calm"
         },
-
         {
             "title": "Swingo",
             "image": "gamesimages/swingo.png",
             "link": "games/swingo.html",
             "category": "skill"
         },
-
         {
             "title": "Day Of Meat: Radiation",
             "image": "gamesimages/dayofmeat.png",
             "link": "games/dayofmeat.html",
             "category": "skill"
         },
-
         {
             "title": "Cats Love Cake 2",
             "image": "gamesimages/catslovecake.png",
             "link": "games/catslovecake.html",
             "category": "skill"
         },
-
         {
             "title": "Monkey Mart",
             "image": "gamesimages/monkeymart.png",
             "link": "games/monkeymart.html",
             "category": "calm"
         },
-
         {
             "title": "Blumgi Slime",
             "image": "gamesimages/blumgislime.png",
             "link": "games/blumgislime.html",
             "category": "skill"
         },
-
         {
             "title": "Blumgi Rocket",
             "image": "gamesimages/blumgirocket.png",
             "link": "games/blumgirocket.html",
             "category": "skill"
         },
-
         {
             "title": "Bob the Robber",
             "image": "gamesimages/bobtherobber.png",
             "link": "games/bobtherobber.html",
             "category": "skill"
         },
-
         {
             "title": "Bob the Robber 2",
             "image": "gamesimages/bobtherobber2.png",
             "link": "games/bobtherobber2.html",
             "category": "skill"
         },
-
         {
             "title": "Paper.IO",
             "image": "gamesimages/paperio.png",
             "link": "games/paperio.html",
             "category": "skill"
         },
-
         {
             "title": "Monster Track",
             "image": "gamesimages/monstertrack.png",
             "link": "games/monstertrack.html",
             "category": "driving"
         },
-
         {
             "title": "Fruit Merge",
             "image": "gamesimages/fruitmerge.png",
             "link": "games/fruitmerge.html",
             "category": "calm"
         },
-
         {
             "title": "Spiral Roll",
             "image": "gamesimages/spiralroll.png",
             "link": "games/spiralroll.html",
             "category": "calm"
         },
-
         {
             "title": "Slow Roads",
             "image": "gamesimages/slowroads.png",
             "link": "games/slowroads.html",
             "category": "driving"
         },
-
         {
             "title": "Rally Point 5",
             "image": "gamesimages/rallypoint5.png",
             "link": "games/rallypoint5.html",
             "category": "driving"
         },
-
         {
             "title": "Skibidi Shooting",
             "image": "gamesimages/skibidishooting.png",
             "link": "games/skibidishooting.html",
             "category": "shooting"
         },
-
         {
             "title": "Drift Hunters",
             "image": "gamesimages/drifthunters.png",
             "link": "games/drifthunters.html",
             "category": "driving"
         },
-
         {
             "title": "Rooftop Snipers 2",
             "image": "gamesimages/rooftopsnipers2.png",
             "link": "games/rooftopsnipers2.html",
             "category": "shooting"
         },
-
-
         {
             "title": "Zombie Seige Outbreak",
             "image": "gamesimages/zombieseigeoutbreak.png",
             "link": "games/zombieseigeoutbreak.html",
             "category": "shooting"
         },
-
         {
             "title": "The Impossible Quiz",
             "image": "gamesimages/theimpossiblequiz.png",
             "link": "games/theimpossiblequiz.html",
             "category": "calm"
         },
-
         {
             "title": "Bloons TD",
             "image": "gamesimages/bloonstd.png",
             "link": "games/bloonstd.html",
             "category": "skill"
         },
-
         {
             "title": "Bloons TD 2",
             "image": "gamesimages/bloonstd2.png",
             "link": "games/bloonstd2.html",
             "category": "skill"
         },
-
         {
             "title": "Breaking The Bank",
             "image": "gamesimages/breakingthebank.png",
             "link": "games/breakingthebank.html",
             "category": "calm"
         },
-
         {
             "title": "Escaping The Prison",
             "image": "gamesimages/escapingtheprison.png",
             "link": "games/escapingtheprison.html",
             "category": "calm"
         },
-
         {
             "title": "Infiltrating The Airship",
             "image": "gamesimages/infiltratingtheairship.png",
             "link": "games/infiltratingtheairship.html",
             "category": "calm"
         },
-
-                {
+        {
             "title": "Fleeing The Complex",
             "image": "gamesimages/fleeingthecomplex.png",
             "link": "games/fleeingthecomplex.html",
             "category": "calm"
         },
-
-
         {
             "title": "Bloxorz",
             "image": "gamesimages/bloxorz.png",
             "link": "games/bloxorz.html",
             "category": "calm"
         },
-
         {
             "title": "Hole.IO",
             "image": "gamesimages/holeio.png",
             "link": "games/holeio.html",
             "category": "calm"
         },
-
         {
             "title": "Celeste",
             "image": "gamesimages/celeste.png",
             "link": "games/celeste.html",
             "category": "skill"
         },
-
         {
             "title": "2048",
             "image": "gamesimages/2048.png",
             "link": "games/2048.html",
             "category": "calm"
         },
-
         {
             "title": "Crazy Parking",
             "image": "gamesimages/crazydriving.png",
             "link": "games/crazyparking.html",
             "category": "driving"
         },
-
         {
             "title": "Sandboxels",
             "image": "gamesimages/sandboxels.png",
             "link": "games/sandboxels/index.html",
             "category": "calm"
         },
-
         {
             "title": "Tap Tap Shots",
             "image": "gamesimages/taptapshots.png",
             "link": "games/taptapshots.html",
             "category": "skill"
         },
-
         {
             "title": "Happy Glass",
             "image": "gamesimages/happyglass.png",
             "link": "games/happyglass.html",
             "category": "calm"
         },
-
         {
             "title": "Portal Flash",
             "image": "gamesimages/portalflash.png",
             "link": "games/portal.html",
             "category": "skill"
         },
-
         {
             "title": "Sugar Sugar",
             "image": "gamesimages/sugarsugar.png",
             "link": "games/sugarsugar.html",
             "category": "calm"
         },
-
         {
             "title": "Eggy Car",
             "image": "gamesimages/eggycar.png",
             "link": "games/eggycar.html",
             "category": "driving"
         },
-
         {
             "title": "Curve Ball 3D",
             "image": "gamesimages/curveball3d.png",
             "link": "games/curveball3d.html",
             "category": "calm"
         },
-
         {
             "title": "Blocky Snakes",
             "image": "gamesimages/blockysnakes.png",
             "link": "games/blockysnakes.html",
             "category": "calm"
         },
-
         {
             "title": "Getting Over It",
             "image": "gamesimages/gettingoverit.png",
             "link": "games/gettingoverit.html",
             "category": "skill"
         },
-
-        
         {
             "title": "Draw Climber",
             "image": "gamesimages/drawclimber.png",
             "link": "games/drawclimber.html",
             "category": "calm"
         },
-
         {
             "title": "Crossy Road",
             "image": "gamesimages/crossyroad.png",
             "link": "games/crossyroad.html",
             "category": "skill"
         },
-
         {
             "title": "Traffic Run",
             "image": "gamesimages/trafficrun.png",
             "link": "games/trafficrun.html",
             "category": "calm"
         },
-
         {
             "title": "Highway Racer",
             "image": "gamesimages/highwayracer.png",
             "link": "games/highwayracer.html",
             "category": "driving"
         },
-
         {
             "title": "Doodle Jump",
             "image": "gamesimages/doodlejump.png",
             "link": "games/doodlejump.html",
             "category": "skill"
         },
-
         {
             "title": "Wheelie Bike",
             "image": "gamesimages/wheeliebike.png",
             "link": "games/wheeliebike.html",
             "category": "skill"
         },
-
         {
             "title": "Gunspin",
             "image": "gamesimages/gunspin.png",
             "link": "games/gunspin.html",
             "category": "skill"
         },
-
         {
             "title": "Fnaf 1",
             "image": "gamesimages/fnaf1.png",
             "link": "games/fnaf1.html",
             "category": "skill"
         },
-
         {
             "title": "Fnaf 2",
             "image": "gamesimages/fnaf2.png",
             "link": "games/fnaf2.html",
             "category": "skill"
         },
-
         {
-            "title":  "Fnaf 4",
+            "title": "Fnaf 4",
             "image": "gamesimages/fnaf4.png",
             "link": "games/fnaf4.html",
             "category": "skill"
         },
-
         {
             "title": "Thisissand",
             "image": "gamesimages/thisissand.png",
             "link": "games/thisissand.html",
             "category": "calm"
         },
-
         {
             "title": "Elastic Face",
             "image": "gamesimages/elasticface.png",
             "link": "games/elasticface.html",
             "category": "calm"
         },
-
         {
             "title": "Penalty Shooters",
             "image": "gamesimages/penaltyshooters.png",
             "link": "games/penaltyshooters.html",
             "category": "skill"
         },
-
         {
             "title": "Race Online: City",
             "image": "gamesimages/racecityonline.png",
             "link": "games/raceonline.html",
             "category": "driving"
         },
-
         {
             "title": "Granny",
             "image": "gamesimages/granny.png",
             "link": "games/granny.html",
             "category": "skill"
         },
-
         {
             "title": "Granny 2",
             "image": "gamesimages/granny2.png",
             "link": "games/granny2.html",
             "category": "skill"
         },
-
         {
             "title": "Among Us Multiplayer",
             "image": "gamesimages/amongus.png",
             "link": "games/amongus.html",
             "category": "skill"
         },
-
         {
             "title": "Rocket Soccer",
             "image": "gamesimages/rocketsoccer.png",
             "link": "games/rocketsoccer.html",
             "category": "skill"
         },
-
         {
             "title": "Flappy Bird",
             "image": "gamesimages/flappybird.png",
             "link": "games/flappybird.html",
             "category": "skill"
         },
-
         {
             "title": "Puppet Master",
             "image": "gamesimages/puppetmaster.png",
             "link": "games/puppetmaster.html",
             "category": "skill"
         },
-
         {
             "title": "Growmi",
             "image": "gamesimages/growmi.png",
             "link": "games/growmi.html",
             "category": "calm"
         },
-
         {
             "title": "Red Ball 4",
             "image": "gamesimages/redball4.png",
             "link": "games/redball4.html",
             "category": "skill"
         },
-
         {
             "title": "Stickman Destruction",
             "image": "gamesimages/stickmandestruction.png",
             "link": "games/stickmandestruction.html",
             "category": "calm"
         },
-
         {
             "title": "Love Tester",
             "image": "gamesimages/lovetester.png",
             "link": "games/lovetester.html",
             "category": "calm"
         },
-
         {
             "title": "G-Switch",
             "image": "gamesimages/gswitch.png",
             "link": "games/gswitch.html",
             "category": "skill"
         },
-
         {
             "title": "Snakes And Ladders",
             "image": "gamesimages/snakesandladders.png",
             "link": "games/snakesandladders.html",
             "category": "calm"
         },
-
         {
             "title": "Happy Wheels",
             "image": "gamesimages/happywheels.png",
             "link": "games/happywheels.html",
             "category": "skill"
         },
-
         {
             "title": "Monster Survivors",
             "image": "gamesimages/monstersurvivors.png",
             "link": "games/monstersurvivor.html",
             "category": "skill"
         },
-
         {
             "title": "Dreadhead Parkour",
             "image": "gamesimages/dreadheadparkour.png",
             "link": "games/dreadheadparkour.html",
             "category": "skill"
         },
-
         {
             "title": "Blackjack",
             "image": "gamesimages/blackjack.png",
             "link": "games/blackjack.html",
             "category": "skill"
         },
-
         {
             "title": "Police Chase Drifter",
             "image": "gamesimages/policechasedrifter.png",
             "link": "games/policechasedrifter.html",
             "category": "driving"
         },
-
         {
             "title": "Super Smash Flash",
             "image": "gamesimages/supersmashflash.png",
             "link": "games/supersmashflash.html",
             "category": "skill"
         },
-
         {
             "title": "Tunnel Rush",
             "image": "gamesimages/tunnelrush.png",
             "link": "games/tunnelrush.html",
             "category": "calm"
         },
-
         {
             "title": "Toy Defence",
             "image": "gamesimages/toydefence.png",
             "link": "games/toydefence.html",
             "category": "skill"
         },
-
         {
             "title": "Snake",
             "image": "gamesimages/snake.png",
             "link": "games/snake.html",
             "category": "retro"
         },
-
         {
             "title": "Super Meat Boy",
             "image": "gamesimages/supermeatboy.png",
             "link": "games/supermeatboy.html",
             "category": "skill"
         },
-
         {
             "title": "The Binding Of Isaac",
             "image": "gamesimages/thebindingofisaac.png",
             "link": "games/thebindingofisaac.html",
             "category": "skill"
         },
-
         {
             "title": "Stickman Parkour",
             "image": "gamesimages/stickmanparkour.png",
             "link": "games/stickmanparkour.html",
             "category": "skill"
         },
-
         {
             "title": "Stickman Gta City",
             "image": "gamesimages/stickmangtacity.png",
             "link": "games/stickmangtacity.html",
             "category": "driving"
         },
-
         {
             "title": "Madalin Stunt Cars",
             "image": "gamesimages/madalinstuntcars.png",
             "link": "games/madalinstuntcars.html",
             "category": "driving"
         },
-
         {
             "title": "Use Boxmen",
             "image": "gamesimages/useboxmen.png",
             "link": "games/useboxmen.html",
             "category": "calm"
         },
-
         {
             "title": "Stack Ball",
             "image": "gamesimages/stackball.png",
             "link": "games/stackball.html",
             "category": "calm"
         },
-
         {
             "title": "QWOP",
             "image": "gamesimages/qwop.png",
             "link": "games/qwop.html",
             "category": "skill"
         },
-
         {
             "title": "Escape Car",
             "image": "gamesimages/escapecar.png",
             "link": "games/escapecar.html",
             "category": "driving"
         },
-
         {
             "title": "Drive Mad",
             "image": "gamesimages/drivemad.png",
             "link": "games/drivemad.html",
             "category": "driving"
         },
-
         {
             "title": "Particles",
             "image": "gamesimages/particles.png",
             "link": "games/particles.html",
             "category": "calm"
         },
-
         {
             "title": "Papa Louie: When Pizzas Attack!",
             "image": "gamesimages/papalouie1.png",
             "link": "games/papalouie.html",
             "category": "skill"
         },
-
         {
             "title": "Alien Homnid",
             "image": "gamesimages/alienhomnid.png",
             "link": "games/alienhomnid.html",
             "category": "shooting"
         },
-
         {
             "title": "Obby 99% Will Lose",
             "image": "gamesimages/obby99lose.png",
             "link": "games/obby99lose.html",
             "category": "calm"
         },
-
         {
             "title": "Counter Strike Unblocked",
             "image": "gamesimages/counterstrike.png",
             "link": "games/counterstrike.html",
             "category": "shooting"
         },
-
         {
             "title": "A Small World Cup",
             "image": "gamesimages/asmallworldcup.png",
             "link": "games/asmallworldcup.html",
             "category": "skill"
         },
-
         {
             "title": "Blumgi Ball",
             "image": "gamesimages/blumgiball.png",
             "link": "games/blumgiball.html",
             "category": "skill"
         },
-
         {
             "title": "Learn To Fly",
             "image": "gamesimages/learntofly.png",
             "link": "games/learntofly.html",
             "category": "calm"
         },
-
         {
             "title": "Learn To Fly 2",
             "image": "gamesimages/learntofly2.png",
             "link": "games/learntofly2.html",
             "category": "calm"
         },
-
         {
             "title": "Age Of War",
             "image": "gamesimages/ageofwar.png",
             "link": "games/ageofwar.html",
             "category": "skill"
         },
-
         {
             "title": "Tetris",
             "image": "gamesimages/tetris.png",
             "link": "games/tetris.html",
             "category": "calm"
         },
-
         {
             "title": "Tag",
             "image": "gamesimages/tag.png",
             "link": "games/tag.html",
             "category": "skill"
         },
-
         {
             "title": "Madness: Projct Nexus",
             "image": "gamesimages/madness.png",
             "link": "games/madness.html",
             "category": "shooting"
         },
-
         {
             "title": "Conquer Kingdom",
             "image": "gamesimages/conquerkingdom.png",
             "link": "games/conquerkingdom.html",
             "category": "skill"
         },
-
         {
             "title": "Raft Wars",
             "image": "gamesimages/raftwars.png",
             "link": "games/raftwars.html",
             "category": "shooting"
         },
-
         {
             "title": "Bad Piggies",
             "image": "gamesimages/badpiggies.png",
             "link": "games/badpiggies.html",
             "category": "driving"
         },
-
         {
             "title": "Bubble Shooter",
             "image": "gamesimages/bubbleshooter.png",
             "link": "games/bubbleshooter.html",
             "category": "calm"
         },
-
         {
             "title": "Crazy Cattle 3D",
             "image": "gamesimages/crazycattle3d.png",
             "link": "games/crazycattle3d.html",
             "category": "skill"
         },
-
         {
             "title": "Line Rider",
             "image": "gamesimages/linerider.png",
             "link": "games/linerider.html",
             "category": "calm"
         },
-
         {
             "title": "Stick Rpg",
             "image": "gamesimages/stickrpg.png",
             "link": "games/stickrpg.html",
             "category": "skill"
         },
-
         {
             "title": "Funny Shooter 2",
             "image": "gamesimages/funnyshooter.png",
             "link": "games/funnyshooter2.html",
             "category": "shooting"
         },
-
         {
             "title": "Gun Mayhem",
             "image": "gamesimages/gunmayhem.png",
             "link": "games/gunmayhem.html",
             "category": "shooting"
         },
-
         {
             "title": "Flash Chess",
             "image": "gamesimages/flashchess.png",
             "link": "games/flashchess.html",
             "category": "skill"
         },
-
         {
             "title": "Tic Tac Toe",
             "image": "gamesimages/tictactoe.png",
             "link": "games/tictactoe.html",
             "category": "calm"
         },
-
         {
             "title": "Vex 5",
             "image": "gamesimages/vex5.png",
             "link": "games/vex5.html",
             "category": "skill"
         },
-
         {
             "title": "Level Devil",
             "image": "gamesimages/leveldevil.png",
             "link": "games/leveldevil.html",
             "category": "skill"
         },
-
         {
             "title": "Tiger Simulator 3D",
             "image": "gamesimages/tigersimulator3d.png",
             "link": "games/tigersimulator3d.html",
             "category": "skill"
         },
-
         {
             "title": "Flip Runner",
             "image": "gamesimages/fliprunner.png",
             "link": "games/fliprunner.html",
             "category": "skill"
         },
-
         {
             "title": "Retro Bowl",
             "image": "gamesimages/retrobowl.png",
             "link": "games/retrobowl.html",
             "category": "skill"
         },
-
         {
             "title": "Retro Bowl College",
             "image": "gamesimages/retrobowlcollege.png",
             "link": "games/retrobowlcollege.html",
             "category": "skill"
         },
-
         {
             "title": "Stack",
             "image": "gamesimages/stack.png",
             "link": "games/stack.html",
             "category": "calm"
         },
-
         {
             "title": "Hextris",
             "image": "gamesimages/hextris.png",
             "link": "games/hextris.html",
             "category": "calm"
         },
-
         {
             "title": "Into Space 2",
             "image": "gamesimages/intospace2.png",
             "link": "games/intospace2.html",
             "category": "calm"
         },
-
         {
             "title": "Spider Solitare",
             "image": "gamesimages/solitare.png",
             "link": "games/solitare.html",
             "category": "skill"
         },
-
         {
             "title": "Snow War Io",
             "image": "gamesimages/snowwario.png",
             "link": "games/snowwario.html",
             "category": "skill"
         },
-
         {
             "title": "Slither IO",
             "image": "gamesimages/slitherio.png",
             "link": "games/slitherio.html",
             "category": "calm"
         },
-
         {
             "title": "Ragdoll Archers",
             "image": "gamesimages/ragdollarchers.png",
             "link": "games/ragdollarchers.html",
             "category": "shooting"
         },
-
         {
             "title": "Shoot Stickman",
             "image": "gamesimages/shootstickman.png",
             "link": "games/shootstickman.html",
             "category": "shooting"
         },
-
         {
             "title": "Sans Fight",
             "image": "gamesimages/sansfight.png",
             "link": "games/sansfight.html",
             "category": "skill"
         },
-
         {
             "title": "Ragdoll Hit",
             "image": "gamesimages/ragdollhit.png",
             "link": "games/ragdollhit.html",
             "category": "skill"
         },
-
         {
             "title": "Superhot",
             "image": "gamesimages/superhot.png",
             "link": "games/superhot.html",
             "category": "shooting"
         },
-
         {
             "title": "Kart Bros",
             "image": "gamesimages/kartbros.png",
             "link": "games/kartbros.html",
             "category": "driving"
         },
-
         {
             "title": "Geometry Wave",
             "image": "gamesimages/geometrywave.png",
             "link": "games/geometrywave.html",
             "category": "skill"
         },
-
         {
             "title": "Totally Accurate Battle Simulator",
             "image": "gamesimages/tabs.png",
             "link": "games/tabs.html",
             "category": "skill"
         },
-
         {
             "title": "Cubefield",
             "image": "gamesimages/cubefield.png",
             "link": "games/cubefield.html",
             "category": "skill"
         },
-
         {
             "title": "Burnin Rubber 5",
             "image": "gamesimages/burninrubber5.png",
             "link": "games/burninrubber5.html",
             "category": "driving"
         },
-
         {
             "title": "Wheelie Life",
             "image": "gamesimages/wheelielife.png",
             "link": "games/wheelielife.html",
             "category": "driving"
         },
-
         {
             "title": "Ultrakill",
             "image": "gamesimages/ultrakill.png",
             "link": "games/ultrakill.html",
             "category": "shooting"
         },
-
         {
             "title": "Five Nights At Epsitens",
             "image": "gamesimages/fnae.png",
             "link": "games/fnae.html",
             "category": "skill"
         },
-
         {
             "title": "Fly the Plane",
             "image": "gamesimages/flytheplane.png",
             "link": "games/flytheplane.html",
             "category": "skill"
         },
-
         {
             "title": "Fancy Pants Adventure World 1",
             "image": "gamesimages/fancypants1.png",
             "link": "games/fancypants1.html",
             "category": "skill"
         },
-
         {
             "title": "Fancy Pants Adventure World 2",
             "image": "gamesimages/fancypants2.png",
             "link": "games/fancypants2.html",
             "category": "skill"
         },
-
         {
             "title": "Fancy Pants Adventure World 3",
             "image": "gamesimages/fancypants3.png",
@@ -1473,4 +1287,3 @@
         }
     ]
 }
-

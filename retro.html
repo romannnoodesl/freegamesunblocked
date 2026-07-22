@@ -87,24 +87,35 @@
     <h1>Retro Games — 3 Games</h1>
     <div class="hero"><p>Relive the classics with our free retro games. Pacman, Super Mario Bros, Snake and more - all unblocked in your browser.</p></div>
     <div class="game-container" id="gameContainer">
-        <div class="game">
+      <!-- BEGIN GRID -->
+      <div class="game">
   <a href="games/pacman.html">
-    <img src="gamesimages/pacman.png" alt="Pacman" loading="lazy" width="200" height="150">
+    <picture>
+        <source type="image/webp" srcset="gamesimages/pacman.webp">
+        <img src="gamesimages/pacman.png" alt="Pacman" loading="eager" fetchpriority="high" width="200" height="150" decoding="async">
+      </picture>
   </a>
   <h2 class="game-title"><a href="games/pacman.html">Pacman</a></h2>
 </div>
-        <div class="game">
+      <div class="game">
   <a href="games/supermariobros.html">
-    <img src="gamesimages/supermariobros.png" alt="Super Mario Bros" loading="lazy" width="200" height="150">
+    <picture>
+        <source type="image/webp" srcset="gamesimages/supermariobros.webp">
+        <img src="gamesimages/supermariobros.png" alt="Super Mario Bros" loading="eager" fetchpriority="high" width="200" height="150" decoding="async">
+      </picture>
   </a>
   <h2 class="game-title"><a href="games/supermariobros.html">Super Mario Bros</a></h2>
 </div>
-        <div class="game">
+      <div class="game">
   <a href="games/snake.html">
-    <img src="gamesimages/snake.png" alt="Snake" loading="lazy" width="200" height="150">
+    <picture>
+        <source type="image/webp" srcset="gamesimages/snake.webp">
+        <img src="gamesimages/snake.png" alt="Snake" loading="eager" fetchpriority="high" width="200" height="150" decoding="async">
+      </picture>
   </a>
   <h2 class="game-title"><a href="games/snake.html">Snake</a></h2>
 </div>
+    <!-- END GRID -->
     </div>
 
     <footer class="site-footer">
