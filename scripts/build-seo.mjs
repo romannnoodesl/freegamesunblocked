@@ -385,6 +385,7 @@ function buildGameWrapperPage(fileBasename, existingHtml, game) {
       <a href="/calm.html">Calm</a>
       <a href="/random.html">Random Sports</a>
       <a href="/papasalley.html">Papa's Alley</a>
+      <a href="/blog.html">Blog</a>
       <a href="/suggestions.html">Suggestions</a>
     </nav>
 ${navBreadcrumbs(category, title)}
