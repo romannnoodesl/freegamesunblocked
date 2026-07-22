@@ -172,7 +172,7 @@ function siteFooter() {
     const year = new Date().getFullYear();
     return `    <footer class="site-footer">
       <p><strong>Popular:</strong> <a href="/games/slope.html">Slope</a> &middot; <a href="/games/run3.html">Run 3</a> &middot; <a href="/games/1v1.lol.html">1v1.LOL</a> &middot; <a href="/games/retrobowl.html">Retro Bowl</a> &middot; <a href="/games/driftboss.html">Drift Boss</a></p>
-      <p><a href="/">Home</a> &middot; <a href="/driving.html">Driving</a> &middot; <a href="/skill.html">Skill</a> &middot; <a href="/shooting.html">Shooting</a> &middot; <a href="/retro.html">Retro</a> &middot; <a href="/calm.html">Calm</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/blog.html">Best Games</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>
+      <p><a href="/">Home</a> &middot; <a href="/driving.html">Driving</a> &middot; <a href="/skill.html">Skill</a> &middot; <a href="/shooting.html">Shooting</a> &middot; <a href="/retro.html">Retro</a> &middot; <a href="/calm.html">Calm</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/blog/">Best Games</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>
       <p>&copy; ${year} ${esc(SITE_NAME)} &mdash; Updated: <span id="lastUpdated"></span></p>
     </footer>`;
 }
@@ -385,7 +385,7 @@ function buildGameWrapperPage(fileBasename, existingHtml, game) {
       <a href="/calm.html">Calm</a>
       <a href="/random.html">Random Sports</a>
       <a href="/papasalley.html">Papa's Alley</a>
-      <a href="/blog.html">Blog</a>
+      <a href="/blog/">Blog</a>
       <a href="/suggestions.html">Suggestions</a>
     </nav>
 ${navBreadcrumbs(category, title)}
@@ -612,7 +612,7 @@ const listingPages = [
     { loc: `${BASE_URL}/papasalley.html`,   title: "Papa's Alley",          priority: '0.7', changefreq: 'weekly' },
     { loc: `${BASE_URL}/suggestions.html`,  title: 'Suggestions',           priority: '0.5', changefreq: 'monthly' },
     { loc: `${BASE_URL}/privacy.html`,      title: 'Privacy Policy',        priority: '0.3', changefreq: 'monthly' },
-    { loc: `${BASE_URL}/blog.html`,         title: 'Best Games & Guides',   priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/`,           title: 'Best Games & Guides',   priority: '0.7', changefreq: 'weekly' },
     { loc: `${BASE_URL}/blog/best-unblocked-games-2026.html`, title: 'Best Unblocked Games 2026', priority: '0.6', changefreq: 'weekly' },
 ];
 
