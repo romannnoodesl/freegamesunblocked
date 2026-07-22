@@ -1,9 +1,10 @@
-const CACHE_NAME = 'fgu-v2';
+const CACHE_NAME = 'fgu-v3';
 const PRECACHE_URLS = [
   '/',
-  '/gamesdesign.css',
+  '/gamesdesign.min.css',
   '/script.js',
   '/cookieconsent.js',
+  '/data.json',
   '/site.webmanifest',
   '/assets/og-image.png',
   '/assets/icon-192.png',
@@ -18,7 +19,7 @@ const PRECACHE_URLS = [
   '/calm.html',
   '/random.html',
   '/papasalley.html',
-  '/blog.html',
+  '/blog/',
   '/suggestions.html',
 ];
 
@@ -30,19 +31,25 @@ self.addEventListener('install', event => {
           cache.add(url).catch(() => {})
         )
       )
-    )
+    ).then(() => self.skipWaiting())
   );
-  self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys =>
       Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    )
+    ).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
+
+function cachePut(request, response) {
+  if (response && response.ok) {
+    const clone = response.clone();
+    caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
+  }
+  return response;
+}
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
@@ -51,15 +58,12 @@ self.addEventListener('fetch', event => {
 
   if (url.origin === 'https://earnify.cc') return;
 
+  // Game files and thumbnails: stale-while-revalidate (large, rarely change)
   if (url.pathname.startsWith('/games/') || url.pathname.startsWith('/gamesimages/')) {
     event.respondWith(
       caches.match(event.request).then(cached => {
         const fetchPromise = fetch(event.request).then(response => {
-          if (response && response.ok) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-          }
-          return response;
+          return cachePut(event.request, response);
         }).catch(() => cached);
         return cached || fetchPromise;
       })
@@ -67,9 +71,27 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // HTML pages: network-first so deploys are visible immediately, cache as offline fallback
+  const isHtml = event.request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/');
+  if (isHtml) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        return cachePut(event.request, response);
+      }).catch(() =>
+        caches.match(event.request).then(cached =>
+          cached || new Response('Offline', { status: 503, headers: { 'Content-Type': 'text/plain' } })
+        )
+      )
+    );
+    return;
+  }
+
+  // Other static assets (css/js/json/fonts/images): cache-first, populate on miss
   event.respondWith(
     caches.match(event.request).then(cached =>
-      cached || fetch(event.request).catch(() => new Response('Offline', { status: 503 }))
+      cached || fetch(event.request).then(response => {
+        return cachePut(event.request, response);
+      }).catch(() => new Response('Offline', { status: 503, headers: { 'Content-Type': 'text/plain' } }))
     )
   );
 });

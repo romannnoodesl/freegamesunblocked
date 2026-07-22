@@ -29,6 +29,13 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500
+      });
       gtag('config', 'G-Z61RKMXNZ9');
     </script>
     <script type="application/ld+json">
@@ -77,6 +84,7 @@
         <a href="calm.html">Calm</a>
         <a href="random.html">Random Sports</a>
         <a href="papasalley.html" class="active">Papa's Alley</a>
+        <a href="blog/">Blog</a>
         <a href="suggestions.html">Suggestions</a>
     </nav>
 
@@ -145,6 +153,7 @@
       <div class="game">
   <a href="games/papasdonuteria.html">
     <picture>
+        <source type="image/webp" srcset="gamesimages/papasdonuteria.webp">
         <img src="gamesimages/papasdonuteria.png" alt="Papa&#39;s Donuteria" loading="lazy" width="200" height="150" decoding="async">
       </picture>
   </a>

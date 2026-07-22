@@ -9,6 +9,8 @@
     try { consent = localStorage.getItem(STORAGE_KEY); } catch (e) {}
 
     // Update Google Analytics consent state based on choice.
+    // NOTE: gtag('consent', 'default', ...) is set in each page's <head>
+    // BEFORE gtag('config'), so Consent Mode's wait_for_update works correctly.
     function setConsent(granted) {
         if (typeof gtag === 'function') {
             gtag('consent', 'update', {
@@ -18,17 +20,6 @@
                 ad_personalization: granted ? 'granted' : 'denied'
             });
         }
-    }
-
-    // Default denial until the user chooses.
-    if (typeof gtag === 'function') {
-        gtag('consent', 'default', {
-            analytics_storage: 'denied',
-            ad_storage: 'denied',
-            ad_user_data: 'denied',
-            ad_personalization: 'denied',
-            wait_for_update: 500
-        });
     }
 
     if (consent === 'granted' || consent === 'denied') {

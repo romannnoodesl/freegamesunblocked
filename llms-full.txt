@@ -1,6 +1,6 @@
 # Free Games Unblocked - Full Game Catalog
 
-> Complete list of 212 games available on Free Games Unblocked, grouped by category. Each link points to a playable page.
+> Complete list of 217 games available on Free Games Unblocked, grouped by category. Each link points to a playable page.
 
 ## Skill Games
 - [Minecraft Java](https://freegamesunblocked.org/games/minecraft.html)
@@ -114,6 +114,9 @@
 - [Fancy Pants Adventure World 1](https://freegamesunblocked.org/games/fancypants1.html)
 - [Fancy Pants Adventure World 2](https://freegamesunblocked.org/games/fancypants2.html)
 - [Fancy Pants Adventure World 3](https://freegamesunblocked.org/games/fancypants3.html)
+- [Friday Night Funkin](https://freegamesunblocked.org/games/fridaynightfunkin.html)
+- [Geometry Dash](https://freegamesunblocked.org/games/geometrydash.html)
+- [Shortcut Race](https://freegamesunblocked.org/games/shortcutrace.html)
 
 ## Driving Games
 - [Snow Rider 3D](https://freegamesunblocked.org/games/snowrider3d.html)
@@ -165,6 +168,7 @@
 - [Shoot Stickman](https://freegamesunblocked.org/games/shootstickman.html)
 - [Superhot](https://freegamesunblocked.org/games/superhot.html)
 - [Ultrakill](https://freegamesunblocked.org/games/ultrakill.html)
+- [Mad GunZ](https://freegamesunblocked.org/games/madgunz.html)
 
 ## Retro Games
 - [Pacman](https://freegamesunblocked.org/games/pacman.html)
@@ -223,4 +227,5 @@
 - [Hextris](https://freegamesunblocked.org/games/hextris.html)
 - [Into Space 2](https://freegamesunblocked.org/games/intospace2.html)
 - [Slither IO](https://freegamesunblocked.org/games/slitherio.html)
+- [Stealing The Diamond](https://freegamesunblocked.org/games/stealingthediamond.html)
 

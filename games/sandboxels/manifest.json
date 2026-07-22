@@ -1,0 +1,9 @@
+{
+  "name": "Sandboxels",
+  "short_name": "Sandboxels",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": []
+}

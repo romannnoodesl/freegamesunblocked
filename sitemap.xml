@@ -374,12 +374,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://freegamesunblocked.org/games/class-145.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://freegamesunblocked.org/games/clusterrush.html</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -794,6 +788,10 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://freegamesunblocked.org/gamesimages/fridaynightfunkin.png</image:loc>
+      <image:title>fridaynightfunkin</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://freegamesunblocked.org/games/fruitmerge.html</loc>
@@ -830,6 +828,10 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://freegamesunblocked.org/gamesimages/geometrydash.png</image:loc>
+      <image:title>geometrydash</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://freegamesunblocked.org/games/geometrywave.html</loc>
@@ -1116,6 +1118,10 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://freegamesunblocked.org/gamesimages/madgunz.png</image:loc>
+      <image:title>madgunz</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://freegamesunblocked.org/games/madness.html</loc>
@@ -1588,12 +1594,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://freegamesunblocked.org/games/sandboxels.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://freegamesunblocked.org/games/sansfight.html</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1618,6 +1618,10 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://freegamesunblocked.org/gamesimages/shortcutrace.png</image:loc>
+      <image:title>shortcutrace</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://freegamesunblocked.org/games/skibidishooting.html</loc>
@@ -1774,6 +1778,10 @@
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://freegamesunblocked.org/gamesimages/stealingthediamond.png</image:loc>
+      <image:title>stealingthediamond</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://freegamesunblocked.org/games/stickdefenders.html</loc>

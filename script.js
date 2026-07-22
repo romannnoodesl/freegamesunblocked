@@ -1,6 +1,10 @@
 let gamesnumber = 0;
 let allGames = [];
 
+const AD_CLIENT = 'ca-pub-9521685727551779';
+// TODO(ads): replace with a real AdSense ad-unit slot ID for the home grid
+const AD_GRID_SLOT = '5555555555';
+
 function getGameOfTheDay(games) {
   const today = new Date();
   const seed = today.getFullYear() + '-' +
@@ -107,8 +111,9 @@ fetch('data.json')
     const remaining = allGames.filter((_, i) => i !== gotd.index);
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q');
-    if (q) {
-      document.getElementById('searchInput').value = q;
+    const searchEl = document.getElementById('searchInput');
+    if (q && searchEl) {
+      searchEl.value = q;
       const filtered = filterGames(q);
       renderGames(filtered);
     } else {
@@ -120,7 +125,8 @@ fetch('data.json')
 
 function countGames(games) {
   gamesnumber = games.length;
-  document.getElementById('gamesnumber').innerHTML = 'Games: ' + gamesnumber;
+  const el = document.getElementById('gamesnumber');
+  if (el) el.innerHTML = 'Games: ' + gamesnumber;
 }
 
 function filterGames(searchTerm) {
@@ -128,33 +134,42 @@ function filterGames(searchTerm) {
   return allGames.filter(game => game.title.toLowerCase().includes(term));
 }
 
-function adSlotHtml(slotId) {
-  return `<div class="ad-slot ad-grid">
-    <ins class="adsbygoogle" style="display:block"
-         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-         data-ad-slot="${slotId}"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>`;
+function createAdSlot() {
+  const wrap = document.createElement('div');
+  wrap.className = 'ad-slot ad-grid';
+  const ins = document.createElement('ins');
+  ins.className = 'adsbygoogle';
+  ins.style.display = 'block';
+  ins.setAttribute('data-ad-client', AD_CLIENT);
+  ins.setAttribute('data-ad-slot', AD_GRID_SLOT);
+  ins.setAttribute('data-ad-format', 'auto');
+  ins.setAttribute('data-full-width-responsive', 'true');
+  wrap.appendChild(ins);
+  return wrap;
+}
+
+function pushAd() {
+  try {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  } catch (e) { /* ad blocker or AdSense not loaded */ }
 }
 
 function renderGames(games) {
   const gameContainer = document.getElementById('gameContainer');
+  if (!gameContainer) return;
   gameContainer.innerHTML = '';
   const AD_EVERY = 12;
 
   games.forEach((game, i) => {
     if (i > 0 && i % AD_EVERY === 0) {
-      const adEl = document.createElement('div');
-      adEl.innerHTML = adSlotHtml('5555555555');
-      gameContainer.appendChild(adEl.firstElementChild);
+      gameContainer.appendChild(createAdSlot());
+      pushAd();
     }
 
     const gameElement = document.createElement('div');
     gameElement.classList.add('game');
     gameElement.innerHTML = `
-      <a href="${game.link}"><img src="${game.image}" alt="${game.title}" loading="lazy" width="200" height="150"></a>
+      <a href="${game.link}"><img src="${game.image}" alt="${game.title}" loading="lazy" width="200" height="150" decoding="async"></a>
       <h2 class="game-title"><a href="${game.link}">${game.title}</a></h2>
     `;
     gameContainer.appendChild(gameElement);
@@ -163,6 +178,7 @@ function renderGames(games) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
+  if (!searchInput) return;
 
   searchInput.addEventListener('input', () => {
     const filteredGames = filterGames(searchInput.value);
@@ -172,6 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+  if (!scrollToTopBtn) return;
 
   window.onscroll = function() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

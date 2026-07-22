@@ -1284,6 +1284,36 @@
             "image": "gamesimages/fancypants3.png",
             "link": "games/fancypants3.html",
             "category": "skill"
+        },
+        {
+            "title": "Friday Night Funkin",
+            "image": "gamesimages/fridaynightfunkin.png",
+            "link": "games/fridaynightfunkin.html",
+            "category": "skill"
+        },
+        {
+            "title": "Geometry Dash",
+            "image": "gamesimages/geometrydash.png",
+            "link": "games/geometrydash.html",
+            "category": "skill"
+        },
+        {
+            "title": "Mad GunZ",
+            "image": "gamesimages/madgunz.png",
+            "link": "games/madgunz.html",
+            "category": "shooting"
+        },
+        {
+            "title": "Shortcut Race",
+            "image": "gamesimages/shortcutrace.png",
+            "link": "games/shortcutrace.html",
+            "category": "skill"
+        },
+        {
+            "title": "Stealing The Diamond",
+            "image": "gamesimages/stealingthediamond.png",
+            "link": "games/stealingthediamond.html",
+            "category": "calm"
         }
     ]
 }

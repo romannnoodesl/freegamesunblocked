@@ -26,10 +26,10 @@ This regenerates:
 |------|---------|
 | `index.html` | Home page with `WebSite` + `SearchAction` JSON-LD (enables Google sitelinks search box) |
 | `driving.html` `skill.html` `calm.html` `shooting.html` `retro.html` `random.html` `papasalley.html` | Category listing pages, each with `CollectionPage` + `BreadcrumbList` JSON-LD |
-| `suggestions.html` `2048.html` | Standalone pages |
+| `suggestions.html` | Standalone page |
 | `404.html` | Custom GitHub Pages 404 |
 | `robots.txt` | Permissive crawl rules + sitemap reference |
-| `sitemap.xml` | 227 URLs (auto-generated) |
+| `sitemap.xml` | 228 URLs (auto-generated) |
 | `ads.txt` | AdSense authorized sellers line |
 | `llms.txt` / `llms-full.txt` | LLM crawler overviews |
 | `humans.txt` | Authorship credits |
@@ -42,24 +42,18 @@ This regenerates:
 
 ### Ad slots
 
-AdSense is wired up with placeholder IDs. To go live:
-1. Get approved for [Google AdSense](https://www.google.com/adsense/) using `https://freegamesunblocked.org` as your domain.
-2. Find your publisher ID (`ca-pub-…`) in AdSense → Account → Account information.
-3. **Replace every** `ca-pub-XXXXXXXXXXXXXXXX` **and** `G-XXXXXXXXXX` across the repo:
-   ```bash
-   # from the repo root
-   rg -l 'ca-pub-XXXXXXXXXXXXXXXX' | xargs sed -i 's/ca-pub-XXXXXXXXXXXXXXXX/ca-pub-YOURREALID/g'
-   rg -l 'G-XXXXXXXXXX' | xargs sed -i 's/G-XXXXXXXXXX/G-YOURREALID/g'
-   ```
-4. Update the same line in `ads.txt` (`pub-XXXXXXXXXXXXXXXX` → your numeric pub ID).
-5. In AdSense, create ad units and replace the `data-ad-slot="1111111111"` placeholder slot IDs with your real slot IDs (different slots per placement look best: header, in-grid, above-game, below-game, footer).
-6. Re-run `node scripts/build-seo.mjs` to propagate the change to all game pages.
+AdSense is wired up with the real publisher ID (`ca-pub-9521685727551779`) and GA4 measurement ID (`G-Z61RKMXNZ9`) on every page. What remains are **placeholder ad-slot IDs** — ad units won't serve until you replace them:
+
+1. In AdSense, create ad units and replace the placeholder slot IDs with your real slot IDs (different slots per placement look best: header, in-grid, above-game, below-game, footer):
+   - `scripts/build-seo.mjs` → `AD_SLOT_ABOVE_GAME` / `AD_SLOT_BELOW_GAME` constants (currently `1111111111` / `2222222222`)
+   - `script.js` → `AD_GRID_SLOT` constant for the home page in-grid ads (currently `5555555555`)
+2. Re-run `node scripts/build-seo.mjs` to propagate the change to all game pages.
 
 Ad slot placements: home (header + in-grid every 12 games + footer), each category page (header + footer), each game page (above + below the game), suggestions page.
 
 ### Google Analytics
 
-GA4 is loaded on every page with placeholder `G-XXXXXXXXXX`. Create a GA4 property at [analytics.google.com](https://analytics.google.com), copy your Measurement ID, and replace using the sed command above.
+GA4 is loaded on every page with measurement ID `G-Z61RKMXNZ9`. Consent Mode defaults (`denied`) are set in each page's `<head>` before `gtag('config')`, and `cookieconsent.js` (end of `<body>`) issues the `granted`/`denied` update based on the user's choice.
 
 ### Google Search Console
 
