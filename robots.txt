@@ -3,6 +3,11 @@
 
 User-agent: *
 Disallow: /assets/
+Allow: /assets/og-image.png
+Allow: /assets/apple-touch-icon.png
+Allow: /assets/icon-512.png
+Allow: /assets/icon-192.png
+Allow: /assets/gGames.jpg
 Disallow: /fonts/
 Disallow: /scripts/
 Allow: /

