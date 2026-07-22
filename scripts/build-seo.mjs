@@ -185,7 +185,7 @@ function siteFooter() {
     const year = new Date().getFullYear();
     return `    <footer class="site-footer">
       <p><strong>Popular:</strong> <a href="/games/slope.html">Slope</a> &middot; <a href="/games/run3.html">Run 3</a> &middot; <a href="/games/1v1.lol.html">1v1.LOL</a> &middot; <a href="/games/retrobowl.html">Retro Bowl</a> &middot; <a href="/games/driftboss.html">Drift Boss</a></p>
-      <p><a href="/">Home</a> &middot; <a href="/driving.html">Driving</a> &middot; <a href="/skill.html">Skill</a> &middot; <a href="/shooting.html">Shooting</a> &middot; <a href="/retro.html">Retro</a> &middot; <a href="/calm.html">Calm</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/blog/">Best Games</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>
+      <p><a href="/">Home</a> &middot; <a href="/driving.html">Driving</a> &middot; <a href="/skill.html">Skill</a> &middot; <a href="/shooting.html">Shooting</a> &middot; <a href="/retro.html">Retro</a> &middot; <a href="/calm.html">Calm</a> &middot; <a href="/2player.html">2 Player</a> &middot; <a href="/horror.html">Horror</a> &middot; <a href="/io.html">.IO</a> &middot; <a href="/car.html">Car</a> &middot; <a href="/parkour.html">Parkour</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/blog/">Best Games</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>
       <p>&copy; ${year} ${esc(SITE_NAME)} &mdash; Updated: <span id="lastUpdated"></span></p>
     </footer>`;
 }
@@ -517,6 +517,11 @@ const LISTING_PAGES = {
     'calm.html':           { category: 'calm', group: null, label: 'Calm Games',         count: null },
     'random.html':         { category: null, group: 'Random', label: 'Random Sports',    count: null },
     'papasalley.html':     { category: null, group: 'Papa', label: "Papa's Alley",       count: null },
+    '2player.html':        { category: null, group: '2Player', label: '2 Player Games',  count: null },
+    'horror.html':         { category: null, group: 'Horror', label: 'Horror Games',     count: null },
+    'io.html':             { category: null, group: 'IO', label: '.IO Games',            count: null },
+    'car.html':            { category: null, group: 'Car', label: 'Car Games',           count: null },
+    'parkour.html':        { category: null, group: 'Parkour', label: 'Parkour Games',   count: null },
 };
 
 async function buildListingPage(filename, config) {
@@ -623,10 +628,19 @@ const listingPages = [
     { loc: `${BASE_URL}/retro.html`,        title: 'Retro Games',           priority: '0.8', changefreq: 'weekly' },
     { loc: `${BASE_URL}/random.html`,       title: 'Random Sports',         priority: '0.7', changefreq: 'weekly' },
     { loc: `${BASE_URL}/papasalley.html`,   title: "Papa's Alley",          priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/2player.html`,      title: '2 Player Games',        priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/horror.html`,       title: 'Horror Games',          priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/io.html`,           title: '.IO Games',             priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/car.html`,          title: 'Car Games',             priority: '0.7', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/parkour.html`,      title: 'Parkour Games',         priority: '0.7', changefreq: 'weekly' },
     { loc: `${BASE_URL}/suggestions.html`,  title: 'Suggestions',           priority: '0.5', changefreq: 'monthly' },
     { loc: `${BASE_URL}/privacy.html`,      title: 'Privacy Policy',        priority: '0.3', changefreq: 'monthly' },
     { loc: `${BASE_URL}/blog/`,           title: 'Best Games & Guides',   priority: '0.7', changefreq: 'weekly' },
     { loc: `${BASE_URL}/blog/best-unblocked-games-2026.html`, title: 'Best Unblocked Games 2026', priority: '0.6', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/best-unblocked-games-for-school-chromebook.html`, title: 'Best Unblocked Games for School Chromebook', priority: '0.6', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/games-like-slope.html`, title: 'Games Like Slope', priority: '0.6', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/unblocked-games-76-alternatives.html`, title: 'Unblocked Games 76 Alternatives', priority: '0.6', changefreq: 'weekly' },
+    { loc: `${BASE_URL}/blog/how-to-play-unblocked-games-at-school.html`, title: 'How to Play Unblocked Games at School', priority: '0.6', changefreq: 'weekly' },
 ];
 
 function sitemapUrlBlock({ loc, lastmod, changefreq, priority, image }) {
@@ -699,6 +713,11 @@ const llms = `# ${SITE_NAME}
 - [Calm Games](${BASE_URL}/calm.html)
 - [Random Sports](${BASE_URL}/random.html)
 - [Papa's Alley](${BASE_URL}/papasalley.html)
+- [2 Player Games](${BASE_URL}/2player.html)
+- [Horror Games](${BASE_URL}/horror.html)
+- [.IO Games](${BASE_URL}/io.html)
+- [Car Games](${BASE_URL}/car.html)
+- [Parkour Games](${BASE_URL}/parkour.html)
 - [Suggestions](${BASE_URL}/suggestions.html)
 - [Blog - Best Games & Guides](${BASE_URL}/blog/)
 

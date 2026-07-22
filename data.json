@@ -4,67 +4,191 @@
             "title": "Grow A Garden Unblocked",
             "image": "gamesimages/growagarden.png",
             "link": "games/growagarden.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2025,
+            "difficulty": "Easy",
+            "tagline": "Grow a Garden is the cozy farming hit: plant seeds, water crops, harvest produce and reinvest your profits into rarer seeds and a bigger garden.",
+            "controls": "WASD to move, mouse or E to interact with plots, shops and tools",
+            "objective": "Grow and sell crops to build the most valuable garden you can.",
+            "tips": [
+                "Plant fast-growing crops first for quick early cash flow.",
+                "Reinvest in better seeds instead of hoarding coins.",
+                "Check the shop regularly \u2014 stock rotates and rare seeds sell out.",
+                "Weather events can boost crop value, so harvest at the right time."
+            ]
         },
         {
             "title": "Steal A Brainrot Unblocked",
             "image": "gamesimages/stealabrainrot.png",
             "link": "games/stealabrainrot.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2025,
+            "difficulty": "Medium",
+            "tagline": "Steal a Brainrot is the chaotic collection game: buy bizarre brainrot characters that generate cash, defend your base \u2014 and raid other players' bases to steal theirs.",
+            "controls": "WASD to move, E to interact, grab and deposit",
+            "objective": "Build the richest base by collecting brainrots, earning cash and stealing from rivals before they steal from you.",
+            "tips": [
+                "Upgrade base defenses before you get rich \u2014 wealthy bases get raided first.",
+                "Scout a base's layout before committing to a steal.",
+                "Deposit your earnings quickly; cash on hand is cash at risk.",
+                "Rare brainrots pay for themselves fast if you can keep them safe."
+            ]
         },
         {
             "title": "Minecraft Java",
             "image": "gamesimages/minecraft.png",
             "link": "games/minecraft.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2011,
+            "difficulty": "Medium",
+            "tagline": "Minecraft is the sandbox phenomenon: mine blocks, craft tools, build anything and survive the night in an infinite procedurally generated world.",
+            "controls": "WASD to move, mouse to look, left-click to mine/attack, right-click to place/use, E for inventory, Space to jump",
+            "objective": "Gather resources, craft gear, build shelter and survive \u2014 or just build whatever you imagine.",
+            "tips": [
+                "Punch a tree first; wood makes your first crafting table and pickaxe.",
+                "Dig down for stone to upgrade from wooden tools on day one.",
+                "Never dig straight down \u2014 lava and caves are unforgiving.",
+                "Light your shelter with torches so monsters don't spawn inside."
+            ]
         },
         {
             "title": "Slope",
             "image": "gamesimages/slope.png",
             "link": "games/slope.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2014,
+            "difficulty": "Hard",
+            "tagline": "Slope is a lightning-fast 3D endless runner: steer a neon ball down an endless slope packed with red blocks, moving walls and sudden drops while the speed keeps climbing.",
+            "controls": "Left/Right arrow keys or A/D to steer the ball",
+            "objective": "Roll as far as you can without falling off the edge or smashing into red obstacles. Your score is the distance you survive.",
+            "tips": [
+                "Stay near the middle of the track so you have room to dodge in either direction.",
+                "Tap the keys instead of holding them \u2014 oversteering causes most falls.",
+                "Only take yellow speed-boost pads when you can see the track ahead.",
+                "At high speed, watch the horizon and react to obstacles before they get close."
+            ]
         },
         {
             "title": "Slope 2",
             "image": "gamesimages/slope2.png",
             "link": "games/slope2.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2022,
+            "difficulty": "Hard",
+            "tagline": "Slope 2 keeps the same high-speed downhill ball rolling as the original and adds moving obstacles, twisting tunnels and brand-new tracks.",
+            "controls": "Left/Right arrow keys or A/D to steer",
+            "objective": "Survive as far as possible down faster, trickier slopes while dodging red blocks and gaps.",
+            "tips": [
+                "The tunnels hide obstacles \u2014 enter them centered and straight.",
+                "Moving red blocks have a rhythm; watch one full cycle before committing.",
+                "Short taps beat long holds at max speed.",
+                "Don't chase gems into risky lines \u2014 survival scores more."
+            ]
         },
         {
             "title": "Ovo",
             "image": "gamesimages/ovo.png",
             "link": "games/ovo.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2020,
+            "difficulty": "Medium",
+            "tagline": "OvO is a slick stickman parkour platformer built around momentum: run, jump, slide, wall-jump and dive through minimalist levels to reach the flag.",
+            "controls": "Arrow keys to run, Up to jump, Down to slide or smash, Down mid-air to dive",
+            "objective": "Reach the flag at the end of every level. Faster finish times earn better ratings and unlock new skins.",
+            "tips": [
+                "Slide right before a jump to launch a much longer slide-jump.",
+                "Diving mid-air (Down) converts height into horizontal speed.",
+                "Wall-jump by pressing jump as you touch the wall \u2014 chain them to climb shafts.",
+                "Coins are optional; learn the level first, then route a coin run."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Ovo 2",
             "image": "gamesimages/ovo2.png",
             "link": "games/ovo2.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2023,
+            "difficulty": "Medium",
+            "tagline": "OvO 2 expands the momentum parkour formula with new levels, new mechanics and tighter speedrun routing for fans of the original.",
+            "controls": "Arrow keys to move, Up to jump, Down to slide, smash and dive",
+            "objective": "Clear each level and reach the flag, chaining slides and dives to keep maximum speed.",
+            "tips": [
+                "Every level is designed around slide-jumps \u2014 master them early.",
+                "If a gap looks impossible, you probably need a dive first.",
+                "Replay levels to find skip routes; most have one.",
+                "Keep momentum through checkpoints instead of stopping."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Subway Surfers",
             "image": "gamesimages/subwaysurfers.png",
             "link": "games/subwaysurfers.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2012,
+            "difficulty": "Medium",
+            "tagline": "Subway Surfers is the classic endless runner: dodge trains, leap barriers and outrun the inspector through colorful subway tracks while grabbing coins and power-ups.",
+            "controls": "Arrow keys: Left/Right to change lanes, Up to jump, Down to roll",
+            "objective": "Run as far as possible, complete missions and chase a new high score while the speed keeps rising.",
+            "tips": [
+                "Stay on top of trains whenever you can \u2014 the view up there is clearer.",
+                "Save your hoverboard for high speeds; it absorbs one crash.",
+                "Finish mission sets to raise your score multiplier permanently.",
+                "Grab jetpacks and coin magnets over mystery boxes."
+            ]
         },
         {
             "title": "Snow Rider 3D",
             "image": "gamesimages/snowrider3d.png",
             "link": "games/snowrider3d.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2021,
+            "difficulty": "Medium",
+            "tagline": "Snow Rider 3D is a downhill sledding game: weave between trees, snowmen and cliffs on a snowy mountain and collect gifts to unlock new sleds.",
+            "controls": "Left/Right arrows or A/D to steer, Up to jump",
+            "objective": "Ride as far down the mountain as you can without crashing.",
+            "tips": [
+                "Look ahead down the slope, not at your sled.",
+                "Make small steering corrections \u2014 big swings cause wipeouts.",
+                "Hit ramps straight-on or you'll clip the edge.",
+                "Gifts are tempting, but a live run beats a risky grab."
+            ]
         },
         {
             "title": "Run 3",
             "image": "gamesimages/run3.png",
             "link": "games/run3.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2014,
+            "difficulty": "Medium",
+            "tagline": "Run 3 sends a little alien sprinting through crumbling space tunnels where you can rotate the entire tunnel to run on walls and ceilings.",
+            "controls": "Left/Right arrows (or A/D) to move, Up or Space to jump; touching a wall rotates the tunnel",
+            "objective": "Get through each tunnel without falling into space. Explore mode unlocks new characters; Infinite mode tests your endurance.",
+            "tips": [
+                "Look two tiles ahead \u2014 crumbling tiles give almost no warning.",
+                "Rotate early: running onto a wall mid-jump changes your landing completely.",
+                "Unlock and try different characters; the Skater handles ice far better.",
+                "In Infinite mode, play safe routes instead of chasing cells."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Tiny Fishing",
             "image": "gamesimages/tinyfishing.png",
             "link": "games/tinyfishing.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2021,
+            "difficulty": "Easy",
+            "tagline": "Tiny Fishing is a chill idle fishing game: cast your line, steer the hook past small fish to the deep, then catch as many as you can on the way up.",
+            "controls": "Click to cast, move the mouse to steer the hook",
+            "objective": "Catch fish to earn cash, then upgrade your max depth, hook size and offline earnings to find rarer species.",
+            "tips": [
+                "Upgrade max depth first \u2014 the valuable fish live deep.",
+                "On the way up, sweep side to side to fill every hook slot.",
+                "Rare golden fish are worth chasing; common ones aren't.",
+                "Invest in offline earnings and the game pays you while you're in class."
+            ]
         },
         {
             "title": "Johny Upgrade",
@@ -76,13 +200,36 @@
             "title": "Drift Boss",
             "image": "gamesimages/driftboss.png",
             "link": "games/driftboss.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2019,
+            "difficulty": "Medium",
+            "tagline": "Drift Boss is a one-button drifting game on a floating road: hold to drift right, release to swing left, and try not to slide off into the sky.",
+            "controls": "Hold Space or mouse button to drift right, release to steer left",
+            "objective": "Drift around endless corners for as long as possible, collecting coins to unlock new cars.",
+            "tips": [
+                "Tap in a rhythm rather than holding \u2014 the car turns harder the longer you hold.",
+                "Anticipate S-curves by starting the next turn early.",
+                "Stay near the middle; recovering from the edge wastes your margin.",
+                "New cars handle differently, so re-learn the timing after an unlock."
+            ],
+            "group": "Car"
         },
         {
             "title": "MotoX3M",
             "image": "gamesimages/motox3m.png",
             "link": "games/motox3m.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2016,
+            "difficulty": "Medium",
+            "tagline": "Moto X3M is a physics bike game full of loops, explosives and insane jumps. Race the clock for a 3-star time on every track.",
+            "controls": "Up/Down arrows to accelerate and brake, Left/Right to tilt the bike",
+            "objective": "Reach the finish as fast as possible. Crashes cost time; stars unlock new bikes and levels.",
+            "tips": [
+                "Front and back flips shave time off the clock \u2014 but only land them clean.",
+                "Feather the brake when landing steep jumps to avoid flipping.",
+                "Tap restart the instant a run goes bad; chasing 3 stars needs perfect lines.",
+                "Lean back on big ramps and lean forward on steep climbs."
+            ]
         },
         {
             "title": "Moto X3M Pool Party",
@@ -112,19 +259,42 @@
             "title": "2 Player Battle",
             "image": "gamesimages/2playerbattle.png",
             "link": "games/2playerbattle.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "2Player"
         },
         {
             "title": "Death Run 3D",
             "image": "gamesimages/deathrun3d.png",
             "link": "games/deathrun3d.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2015,
+            "difficulty": "Very Hard",
+            "tagline": "Death Run 3D is a first-person reflex gauntlet: fly through neon tunnels at extreme speed and thread the gaps in walls that give you milliseconds to react.",
+            "controls": "WASD or arrow keys to move within the tunnel",
+            "objective": "Survive each course as long as possible at blistering speed.",
+            "tips": [
+                "Look at the far end of the tunnel, not the wall in front of you.",
+                "Move in tiny corrections \u2014 at full speed a small input crosses the whole screen.",
+                "Learn each course's patterns; they're fixed, not random.",
+                "Turn off distractions \u2014 this game is 90% focus."
+            ]
         },
         {
             "title": "Temple Run",
             "image": "gamesimages/templerun.png",
             "link": "games/templerun.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2011,
+            "difficulty": "Medium",
+            "tagline": "Temple Run started the endless-runner craze: swipe through ancient temple paths, leap roots and fire traps, and outrun the demon monkeys behind you.",
+            "controls": "Up to jump, Down to slide, Left/Right to turn at corners, A/D or tilt to shift sides",
+            "objective": "Run as far as possible, collect coins and complete objectives to raise your multiplier.",
+            "tips": [
+                "Upgrade the coin magnet power-up first for steady income.",
+                "Save resurrection wings for high-score runs.",
+                "Slide under fire traps \u2014 jumping over them usually ends badly.",
+                "Turn early at corners; the game buffers your input."
+            ]
         },
         {
             "title": "Duck Life",
@@ -154,7 +324,18 @@
             "title": "World's Hardest Game",
             "image": "gamesimages/worldshardestgame.png",
             "link": "games/worldshardestgame.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2008,
+            "difficulty": "Very Hard",
+            "tagline": "The World's Hardest Game lives up to its name: guide a red square past swarms of blue dots, grab every yellow coin and reach the green zone across 30 brutal levels.",
+            "controls": "Arrow keys to move",
+            "objective": "Collect all yellow coins and reach the green exit zone without touching a single blue dot.",
+            "tips": [
+                "Watch the dot pattern for a full cycle before you move.",
+                "Safe zones are your friends \u2014 stop, breathe, plan the next leg.",
+                "Move in short committed bursts, not hesitant drifts.",
+                "Deaths are information; every fail teaches you the timing."
+            ]
         },
         {
             "title": "World's Hardest Game 2",
@@ -190,7 +371,8 @@
             "title": "Big Tower Tiny Square 2",
             "image": "gamesimages/bigtowertinysquare.png",
             "link": "games/bigtowertinysquare.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Parkour"
         },
         {
             "title": "Fruit Ninja",
@@ -208,19 +390,54 @@
             "title": "Cluster Rush",
             "image": "gamesimages/clusterrush.png",
             "link": "games/clusterrush.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2016,
+            "difficulty": "Hard",
+            "tagline": "Cluster Rush is first-person truck-surfing: sprint and leap across the roofs of speeding trucks in a convoy and don't touch the ground.",
+            "controls": "WASD or arrows to move, Space to jump",
+            "objective": "Jump from truck to truck and reach the finish without falling or getting thrown.",
+            "tips": [
+                "Jump early \u2014 the trucks are moving faster than your reflexes.",
+                "Land on cab centers; edges throw you off.",
+                "Keep moving forward; standing still gets you crushed by the next truck.",
+                "Watch for turning trucks \u2014 they tilt before they swerve."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Getaway Shootout",
             "image": "gamesimages/getawayshootout.png",
             "link": "games/getawayshootout.html",
-            "category": "shooting"
+            "category": "shooting",
+            "releaseYear": 2018,
+            "difficulty": "Medium",
+            "tagline": "Getaway Shootout is a chaotic ragdoll race: hop your wobbly character across rooftops and tracks, grab guns and power-ups, and reach the getaway vehicle first.",
+            "controls": "W and E to hop left and right, R to use your held weapon or power-up",
+            "objective": "Beat three rivals to the helicopter, car or train at the end of each map.",
+            "tips": [
+                "Master the hop rhythm \u2014 alternating W/E fast is quicker than big jumps.",
+                "Grab any weapon early; knockback wins close races.",
+                "Save your power-up for the final stretch to the vehicle.",
+                "Knocking rivals off high platforms sets them back further than shooting them."
+            ],
+            "group": "2Player"
         },
         {
             "title": "Basketball Stars",
             "image": "gamesimages/basketballstars.png",
             "link": "games/basketballstars.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2019,
+            "difficulty": "Medium",
+            "tagline": "Basketball Stars is a fast 1v1 streetball game with dunks, blocks, steals and three-pointers \u2014 outplay the CPU or a friend in quick matches.",
+            "controls": "Arrow keys to move, Z/X (or the on-screen keys) to shoot, steal, dash and block",
+            "objective": "Score more than your opponent before the clock runs out.",
+            "tips": [
+                "Pump fake first \u2014 defenders jump early, leaving an open drive.",
+                "Time your jump for blocks at the peak of their shot.",
+                "Use dash to recover on defense after getting beaten.",
+                "Corner threes are the highest-percentage outside shot."
+            ]
         },
         {
             "title": "Globle Unlimited",
@@ -232,7 +449,18 @@
             "title": "1V1.LOL",
             "image": "gamesimages/1v1.lol.png",
             "link": "games/1v1.lol.html",
-            "category": "shooting"
+            "category": "shooting",
+            "releaseYear": 2019,
+            "difficulty": "Hard",
+            "tagline": "1v1.LOL is a build-and-fight shooter where you throw up walls, ramps and floors mid-battle. Play 1v1 duels, box fights or battle royale against real players.",
+            "controls": "WASD to move, mouse to aim/shoot, Z/X/C/V to build walls, ramps, floors and roofs, Space to jump",
+            "objective": "Eliminate your opponent before they eliminate you. Win rounds by out-building and out-aiming the other player.",
+            "tips": [
+                "Learn to place a ramp with a wall in front of it \u2014 that one move wins most fights.",
+                "Take and hold high ground; fighting downward is always easier.",
+                "Practice editing builds in the free build mode before queueing.",
+                "Don't spam builds \u2014 each piece has a cooldown that good players punish."
+            ]
         },
         {
             "title": "xx142b2.exe",
@@ -250,19 +478,42 @@
             "title": "Infinite Craft",
             "image": "gamesimages/infinitecraft.png",
             "link": "games/infinitecraft.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2024,
+            "difficulty": "Easy",
+            "tagline": "Infinite Craft is the viral crafting sandbox: start with Water, Fire, Earth and Wind, drag them together and discover everything from Steam to entire civilizations.",
+            "controls": "Drag and drop elements onto each other to combine them",
+            "objective": "Discover as many new elements as you can \u2014 including rare 'First Discoveries' nobody else has found.",
+            "tips": [
+                "Combine opposites: fire+water, earth+wind \u2014 opposites unlock branches fast.",
+                "Revisit basic elements whenever you find something new.",
+                "Use the search box instead of scrolling a huge inventory.",
+                "Try combining an element with itself; it works more often than you'd think."
+            ]
         },
         {
             "title": "PolyTrack",
             "image": "gamesimages/polytrack.png",
             "link": "games/polytrack.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Cookie Clicker",
             "image": "gamesimages/cookieclicker.png",
             "link": "games/cookieclicker.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2013,
+            "difficulty": "Easy",
+            "tagline": "Cookie Clicker is the original idle game: click a giant cookie, then spend cookies on cursors, grandmas and factories that bake for you around the clock.",
+            "controls": "Mouse: click the big cookie, click buildings and upgrades to buy them",
+            "objective": "Bake as many cookies as possible and build an ever-growing automated cookie empire.",
+            "tips": [
+                "Early on, buy the cheapest building each time \u2014 CpS scales faster that way.",
+                "Always click golden cookies; their bonuses stack with everything.",
+                "Buy 'double CpS' upgrades as soon as they appear.",
+                "Leave the tab open \u2014 idle production does most of the work."
+            ]
         },
         {
             "title": "We Come What we Behold",
@@ -274,25 +525,60 @@
             "title": "BitLife",
             "image": "gamesimages/bitlife.png",
             "link": "games/bitlife.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2018,
+            "difficulty": "Easy",
+            "tagline": "BitLife is a life simulator: make choices from birth to death \u2014 school, careers, relationships, lottery tickets and mischief \u2014 and see how the story ends.",
+            "controls": "Mouse: click through menus and choices",
+            "objective": "Live the life you want: get rich, start a family, become famous \u2014 or chaos it all and try again.",
+            "tips": [
+                "Study hard as a kid; scholarships unlock high-paying careers.",
+                "Keep Smarts and Health high with the library and gym each year.",
+                "Start saving early \u2014 compound money buys houses and businesses later.",
+                "Ribbon achievements reward very different lives, so experiment."
+            ]
         },
         {
             "title": "Jumping Shell",
             "image": "gamesimages/jumpingshell.png",
             "link": "games/jumpingshell.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Parkour"
         },
         {
             "title": "Fireboy and Watergirl",
             "image": "gamesimages/fireboyandwatergirl.png",
             "link": "games/fireboyandwatergirl.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2009,
+            "difficulty": "Medium",
+            "tagline": "Fireboy and Watergirl is the co-op puzzle classic: guide two characters through temple levels using their opposite elemental powers \u2014 alone or with a friend on one keyboard.",
+            "controls": "Arrow keys for Fireboy, WASD for Watergirl",
+            "objective": "Get both characters to their matching doors, collecting diamonds. Fire hurts Watergirl, water hurts Fireboy, and green goo hurts both.",
+            "tips": [
+                "Move one character at a time on tricky sections; park the other somewhere safe.",
+                "Use one character to hold levers and buttons for the other.",
+                "Grab the red diamonds with Fireboy and blue ones with Watergirl.",
+                "Perfect runs need every diamond \u2014 scout the level first."
+            ],
+            "group": "2Player"
         },
         {
             "title": "Pacman",
             "image": "gamesimages/pacman.png",
             "link": "games/pacman.html",
-            "category": "retro"
+            "category": "retro",
+            "releaseYear": 1980,
+            "difficulty": "Medium",
+            "tagline": "Pac-Man is arcade royalty: clear the maze of pellets while four ghosts hunt you down, then turn the tables with a power pellet.",
+            "controls": "Arrow keys to move through the maze",
+            "objective": "Eat every pellet in the maze without getting caught by Blinky, Pinky, Inky or Clyde.",
+            "tips": [
+                "Learn ghost behavior: Blinky chases you directly, Pinky tries to cut you off.",
+                "Clear the maze corners early \u2014 they're death traps later.",
+                "Save power pellets for when ghosts corner you.",
+                "Side tunnels slow ghosts down; use them to escape."
+            ]
         },
         {
             "title": "Boxing Random",
@@ -345,7 +631,8 @@
             "title": "Super Star Car",
             "image": "gamesimages/superstarcar.png",
             "link": "games/superstarcar.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Moto Maniac 2",
@@ -357,7 +644,19 @@
             "title": "Stickman Hook",
             "image": "gamesimages/stickmanhook.png",
             "link": "games/stickmanhook.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2018,
+            "difficulty": "Medium",
+            "tagline": "Stickman Hook is a one-button swinging game: latch onto hooks, build momentum through the air and fling your stickman to the finish line.",
+            "controls": "Hold Space or mouse button to grapple, release to fly",
+            "objective": "Swing through every level and cross the finish line without falling.",
+            "tips": [
+                "Release at the forward peak of the swing for maximum distance.",
+                "You don't need every hook \u2014 skipping one is often faster.",
+                "Bounce pads preserve momentum; land on them when possible.",
+                "Short taps give fine control on tight sections."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Stick Merge",
@@ -381,7 +680,8 @@
             "title": "Cyber Cars Punk Racing",
             "image": "gamesimages/cybercarspunkracing.png",
             "link": "games/cybercarspunkracing.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Survival Karts",
@@ -485,7 +785,18 @@
             "title": "Monkey Mart",
             "image": "gamesimages/monkeymart.png",
             "link": "games/monkeymart.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2022,
+            "difficulty": "Easy",
+            "tagline": "Monkey Mart is a cute management game where your monkey runs a supermarket: plant crops, stock shelves, ring up customers and expand the store.",
+            "controls": "WASD or arrow keys to move \u2014 your monkey works automatically when standing at a station",
+            "objective": "Grow the mart by keeping shelves stocked and customers happy, unlocking new aisles and products.",
+            "tips": [
+                "Never let bananas run out \u2014 they're the fastest seller.",
+                "Hire helpers as soon as you can afford them; automation scales.",
+                "Upgrade movement and carry speed early.",
+                "Save for the next aisle unlock before buying decorations."
+            ]
         },
         {
             "title": "Blumgi Slime",
@@ -515,7 +826,8 @@
             "title": "Paper.IO",
             "image": "gamesimages/paperio.png",
             "link": "games/paperio.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "IO"
         },
         {
             "title": "Monster Track",
@@ -557,13 +869,37 @@
             "title": "Drift Hunters",
             "image": "gamesimages/drifthunters.png",
             "link": "games/drifthunters.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2017,
+            "difficulty": "Medium",
+            "tagline": "Drift Hunters is a 3D drifting sim with licensed-style tuner cars, deep upgrades and real physics. Chain long slides to earn cash and unlock better machines.",
+            "controls": "WASD or arrow keys to drive, Space for handbrake, C to change camera",
+            "objective": "Drift through tracks to build score multipliers, earn cash, then buy and tune new cars.",
+            "tips": [
+                "Initiate drifts with a quick handbrake tap, then balance the throttle.",
+                "Chain corners without straightening to keep the multiplier alive.",
+                "Upgrade turbo and weight reduction before buying new cars.",
+                "If you spin, you're entering too fast \u2014 brake earlier, drift longer."
+            ],
+            "group": "Car"
         },
         {
             "title": "Rooftop Snipers 2",
             "image": "gamesimages/rooftopsnipers2.png",
             "link": "games/rooftopsnipers2.html",
-            "category": "shooting"
+            "category": "shooting",
+            "releaseYear": 2020,
+            "difficulty": "Medium",
+            "tagline": "Rooftop Snipers 2 is a two-button physics duel: jump and shoot to knock your opponent off the roof with pistols, tomahawks and beach balls.",
+            "controls": "W to jump, E to shoot (Player 2 uses arrow keys/O)",
+            "objective": "Win rounds by knocking the other sniper off the rooftop \u2014 first to the round target wins.",
+            "tips": [
+                "Shoot while your opponent is mid-jump; they can't dodge.",
+                "High arcs get more knockback than flat shots.",
+                "Watch for stage hazards like wind and moving platforms.",
+                "Jumping changes your hitbox \u2014 mix it up when you're losing duels."
+            ],
+            "group": "2Player"
         },
         {
             "title": "Zombie Seige Outbreak",
@@ -575,13 +911,35 @@
             "title": "The Impossible Quiz",
             "image": "gamesimages/theimpossiblequiz.png",
             "link": "games/theimpossiblequiz.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2007,
+            "difficulty": "Hard",
+            "tagline": "The Impossible Quiz is 110 questions of pure trickery where the obvious answer is always wrong. Think sideways, expect puns and guard your three lives.",
+            "controls": "Mouse to click answers \u2014 and sometimes the question itself",
+            "objective": "Answer every question without losing all three lives. Skips help, but you need them all for the end.",
+            "tips": [
+                "Read questions literally \u2014 wordplay beats logic here.",
+                "Some answers are hidden in the question text or the screen itself.",
+                "Memorize answers after each failure; progress is pattern knowledge.",
+                "Save your skips; the final questions demand them."
+            ]
         },
         {
             "title": "Bloons TD",
             "image": "gamesimages/bloonstd.png",
             "link": "games/bloonstd.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2007,
+            "difficulty": "Medium",
+            "tagline": "Bloons TD is the tower-defense classic: place dart monkeys, tack shooters and cannons along the path and pop every balloon before it escapes.",
+            "controls": "Mouse: select and place towers, upgrade them between rounds",
+            "objective": "Stop every wave of Bloons from reaching the end of the track.",
+            "tips": [
+                "Place towers where they cover the most path \u2014 bends are prime real estate.",
+                "One upgraded tower beats two basic ones at the same cost.",
+                "Lead Bloons need bombs or fire; plan for them before round 28.",
+                "Save cash for the big rounds instead of over-buying early."
+            ]
         },
         {
             "title": "Bloons TD 2",
@@ -617,13 +975,25 @@
             "title": "Bloxorz",
             "image": "gamesimages/bloxorz.png",
             "link": "games/bloxorz.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2007,
+            "difficulty": "Hard",
+            "tagline": "Bloxorz is a spatial puzzle classic: roll a 1x1x2 block across floating platforms and drop it upright into the square hole without tumbling off the edge.",
+            "controls": "Arrow keys to roll the block one space at a time",
+            "objective": "Stand the block upright on the exit hole across 33 levels of switches, bridges and fragile tiles.",
+            "tips": [
+                "Remember the block covers two tiles when lying down \u2014 most falls come from forgetting that.",
+                "Plan the last two moves first: the block must arrive upright.",
+                "X-switches need the block standing; O-switches work either way.",
+                "Orange tiles break if the block stands on them \u2014 cross them lying down."
+            ]
         },
         {
             "title": "Hole.IO",
             "image": "gamesimages/holeio.png",
             "link": "games/holeio.html",
-            "category": "calm"
+            "category": "calm",
+            "group": "IO"
         },
         {
             "title": "Celeste",
@@ -635,7 +1005,18 @@
             "title": "2048",
             "image": "gamesimages/2048.png",
             "link": "games/2048.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2014,
+            "difficulty": "Medium",
+            "tagline": "2048 is the elegant number puzzle: slide tiles, merge matching numbers and chase the elusive 2048 tile on a 4x4 grid.",
+            "controls": "Arrow keys to slide all tiles in one direction",
+            "objective": "Merge tiles to reach 2048 \u2014 then keep going for a high score.",
+            "tips": [
+                "Keep your biggest tile locked in one corner and never move it.",
+                "Build your second-biggest tile next to the corner tile.",
+                "Avoid moving up (or whichever direction frees the corner) unless forced.",
+                "Think in chains: 2-4-8-16 lined up merges beautifully."
+            ]
         },
         {
             "title": "Crazy Parking",
@@ -677,7 +1058,19 @@
             "title": "Eggy Car",
             "image": "gamesimages/eggycar.png",
             "link": "games/eggycar.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2019,
+            "difficulty": "Hard",
+            "tagline": "Eggy Car puts a raw egg on your roof and dares you to drive over hills without letting it fall and crack. Simple controls, brutal physics.",
+            "controls": "Right arrow/D to accelerate, Left arrow/A to brake or reverse",
+            "objective": "Drive as far as possible while keeping the egg on the car. Distance is your score.",
+            "tips": [
+                "Tiny throttle taps keep the egg settled; speed is the enemy.",
+                "Slow down before every hill crest \u2014 that's where eggs launch.",
+                "If the egg starts bouncing, stop completely and let it settle.",
+                "Grab power-ups like the egg freeze when they appear."
+            ],
+            "group": "Car"
         },
         {
             "title": "Curve Ball 3D",
@@ -689,13 +1082,25 @@
             "title": "Blocky Snakes",
             "image": "gamesimages/blockysnakes.png",
             "link": "games/blockysnakes.html",
-            "category": "calm"
+            "category": "calm",
+            "group": "IO"
         },
         {
             "title": "Getting Over It",
             "image": "gamesimages/gettingoverit.png",
             "link": "games/gettingoverit.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2017,
+            "difficulty": "Very Hard",
+            "tagline": "Getting Over It is the legendary rage game: you are a man in a cauldron climbing a mountain with only a hammer, and one mistake can undo an hour of progress.",
+            "controls": "Mouse only: move the hammer in arcs to push, pull and hook yourself upward",
+            "objective": "Climb the mountain to the top. There are no checkpoints.",
+            "tips": [
+                "Practice the 'pogo' \u2014 planting the hammer below you and launching upward.",
+                "Slow, deliberate swings beat panicked flailing after a slip.",
+                "Hook ledges gently; yanking the hammer throws you off.",
+                "Falls are part of the game \u2014 treat each one as route practice."
+            ]
         },
         {
             "title": "Draw Climber",
@@ -707,7 +1112,18 @@
             "title": "Crossy Road",
             "image": "gamesimages/crossyroad.png",
             "link": "games/crossyroad.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2014,
+            "difficulty": "Medium",
+            "tagline": "Crossy Road is endless Frogger: hop across highways, rivers and train tracks one tap at a time while traffic, trains and eagles try to end the run.",
+            "controls": "Arrow keys or click to hop forward; Left/Right to dodge sideways",
+            "objective": "Hop as far as you can. Standing still too long summons the eagle.",
+            "tips": [
+                "Never stop moving forward for long \u2014 the eagle is always coming.",
+                "Sideways hops dodge trains without losing ground.",
+                "Ride logs and lily pads at their rhythm, not yours.",
+                "Listen for train horns; they warn you before you can see the train."
+            ]
         },
         {
             "title": "Traffic Run",
@@ -719,13 +1135,25 @@
             "title": "Highway Racer",
             "image": "gamesimages/highwayracer.png",
             "link": "games/highwayracer.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Doodle Jump",
             "image": "gamesimages/doodlejump.png",
             "link": "games/doodlejump.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2009,
+            "difficulty": "Medium",
+            "tagline": "Doodle Jump is the classic vertical climber: bounce from platform to platform up an endless notebook page, riding springs and dodging monsters.",
+            "controls": "Left/Right arrows to move; you bounce automatically",
+            "objective": "Climb as high as possible without falling off the bottom of the screen.",
+            "tips": [
+                "Aim for springs and jetpacks \u2014 they're free altitude.",
+                "You wrap around screen edges; use it to reach far platforms.",
+                "Brown platforms break \u2014 land and leave immediately.",
+                "Shoot monsters (Up or Space) before landing near them."
+            ]
         },
         {
             "title": "Wheelie Bike",
@@ -743,19 +1171,33 @@
             "title": "Fnaf 1",
             "image": "gamesimages/fnaf1.png",
             "link": "games/fnaf1.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2014,
+            "difficulty": "Medium",
+            "tagline": "Five Nights at Freddy's puts you in the night-guard chair: watch the cameras, manage limited power and keep the animatronics out of your office until 6 AM.",
+            "controls": "Mouse: click cameras, door and light buttons",
+            "objective": "Survive five nights. Doors and lights drain power \u2014 run out and you're defenseless.",
+            "tips": [
+                "Power is the real enemy; use doors only when something is at them.",
+                "Check Pirate Cove (Foxy) regularly or he'll sprint at your door.",
+                "Listen for footsteps and breathing \u2014 audio tells you more than cameras.",
+                "Bonnie and Chica approach from different doors; track both."
+            ],
+            "group": "Horror"
         },
         {
             "title": "Fnaf 2",
             "image": "gamesimages/fnaf2.png",
             "link": "games/fnaf2.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Horror"
         },
         {
             "title": "Fnaf 4",
             "image": "gamesimages/fnaf4.png",
             "link": "games/fnaf4.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Horror"
         },
         {
             "title": "Thisissand",
@@ -779,25 +1221,50 @@
             "title": "Race Online: City",
             "image": "gamesimages/racecityonline.png",
             "link": "games/raceonline.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Granny",
             "image": "gamesimages/granny.png",
             "link": "games/granny.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2017,
+            "difficulty": "Hard",
+            "tagline": "Granny is the viral horror escape game: you're locked in Granny's house and have five days to find keys, tools and a way out while she hunts every sound you make.",
+            "controls": "WASD to move, mouse to look, E to interact, crouch to stay quiet",
+            "objective": "Escape the house within five days. Dropped items make noise \u2014 and Granny hears everything.",
+            "tips": [
+                "Crouch whenever you move; walking loudly brings her to you.",
+                "Hide under beds and in wardrobes when you hear her coming.",
+                "Drop an item in one room to lure her away from where you need to go.",
+                "Learn where key items spawn \u2014 each run, route the house in your head."
+            ],
+            "group": "Horror"
         },
         {
             "title": "Granny 2",
             "image": "gamesimages/granny2.png",
             "link": "games/granny2.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Horror"
         },
         {
             "title": "Among Us Multiplayer",
             "image": "gamesimages/amongus.png",
             "link": "games/amongus.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2018,
+            "difficulty": "Medium",
+            "tagline": "Among Us is the social deduction hit: finish tasks as a Crewmate and vote out the Impostors \u2014 or lie, sabotage and eliminate the crew as the Impostor yourself.",
+            "controls": "WASD to move, E or Space to use, Q to kill as Impostor, mouse for tasks and voting",
+            "objective": "Crewmates win by completing all tasks or ejecting every Impostor; Impostors win by eliminating the crew.",
+            "tips": [
+                "As crew, move in groups \u2014 solo players are easy targets.",
+                "Fake tasks convincingly as Impostor: stand still for a believable duration.",
+                "Use cams and admin table to track movement.",
+                "Report bodies and share locations; information wins meetings."
+            ]
         },
         {
             "title": "Rocket Soccer",
@@ -809,7 +1276,18 @@
             "title": "Flappy Bird",
             "image": "gamesimages/flappybird.png",
             "link": "games/flappybird.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2013,
+            "difficulty": "Hard",
+            "tagline": "Flappy Bird is the one-button phenomenon: flap a bird through gaps in green pipes. One pixel of contact ends the run \u2014 and your patience.",
+            "controls": "Click, tap or Space to flap upward",
+            "objective": "Fly through as many pipe gaps as possible without touching anything.",
+            "tips": [
+                "Find a steady flap rhythm and hold it instead of reacting late.",
+                "Stay in the lower-middle of the screen for the best angles.",
+                "Flap before the gap, not inside it.",
+                "Take breaks \u2014 tilt makes this game genuinely harder."
+            ]
         },
         {
             "title": "Puppet Master",
@@ -857,7 +1335,18 @@
             "title": "Happy Wheels",
             "image": "gamesimages/happywheels.png",
             "link": "games/happywheels.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2010,
+            "difficulty": "Hard",
+            "tagline": "Happy Wheels is the infamous ragdoll physics game: guide Segway riders, wheelchair grandpas and irresponsible dads through lethally silly obstacle courses.",
+            "controls": "Arrow keys to move, Space for the primary action, Shift/Ctrl for secondary actions",
+            "objective": "Reach the finish line in one piece \u2014 or at least with the pieces you need.",
+            "tips": [
+                "Slow is safe: most traps punish full speed.",
+                "Lean back on descents to avoid face-planting.",
+                "Eject (Z) before a bad landing to sometimes survive it.",
+                "Different characters trivialize different levels \u2014 swap around."
+            ]
         },
         {
             "title": "Monster Survivors",
@@ -869,7 +1358,8 @@
             "title": "Dreadhead Parkour",
             "image": "gamesimages/dreadheadparkour.png",
             "link": "games/dreadheadparkour.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Parkour"
         },
         {
             "title": "Blackjack",
@@ -887,13 +1377,25 @@
             "title": "Super Smash Flash",
             "image": "gamesimages/supersmashflash.png",
             "link": "games/supersmashflash.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "2Player"
         },
         {
             "title": "Tunnel Rush",
             "image": "gamesimages/tunnelrush.png",
             "link": "games/tunnelrush.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2018,
+            "difficulty": "Hard",
+            "tagline": "Tunnel Rush hurls you through a spinning kaleidoscope tunnel full of barriers. Dodge at speed as the colors blur and the pace keeps rising.",
+            "controls": "Left/Right arrows or A/D to rotate around the tunnel",
+            "objective": "Survive the tunnel as long as possible, slipping through gaps in the oncoming barriers.",
+            "tips": [
+                "Focus on the center vanishing point \u2014 obstacles read faster there.",
+                "Small movements only; big spins make you lose orientation.",
+                "Anticipate the tunnel's rotation instead of reacting to it.",
+                "If colors distract you, defocus your eyes and track the gaps."
+            ]
         },
         {
             "title": "Toy Defence",
@@ -905,7 +1407,18 @@
             "title": "Snake",
             "image": "gamesimages/snake.png",
             "link": "games/snake.html",
-            "category": "retro"
+            "category": "retro",
+            "releaseYear": 1998,
+            "difficulty": "Easy",
+            "tagline": "Snake is the mobile classic: eat the food, grow longer, and don't run into the walls or your own ever-lengthening tail.",
+            "controls": "Arrow keys to change direction",
+            "objective": "Grow the snake as long as possible without crashing.",
+            "tips": [
+                "Hug a coiling pattern along the edges when you get long.",
+                "Never box yourself into a space smaller than your length.",
+                "Plan two turns ahead once the tail gets big.",
+                "Speed increases with length, so tighten your turns early."
+            ]
         },
         {
             "title": "Super Meat Boy",
@@ -923,7 +1436,8 @@
             "title": "Stickman Parkour",
             "image": "gamesimages/stickmanparkour.png",
             "link": "games/stickmanparkour.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Parkour"
         },
         {
             "title": "Stickman Gta City",
@@ -935,7 +1449,19 @@
             "title": "Madalin Stunt Cars",
             "image": "gamesimages/madalinstuntcars.png",
             "link": "games/madalinstuntcars.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2015,
+            "difficulty": "Easy",
+            "tagline": "Madalin Stunt Cars is open-world stunt driving: a huge playground of loops, ramps and jumps with supercars and no rules but physics.",
+            "controls": "WASD or arrows to drive, Space for handbrake, C to change camera, R to reset",
+            "objective": "Explore the map and pull off the biggest stunts you can \u2014 loops, barrel rolls and record jumps.",
+            "tips": [
+                "Hit loops at full speed or you'll drop off the ceiling.",
+                "Tap the handbrake mid-drift to hold long slides.",
+                "Scout the map for the mega ramps before committing.",
+                "Reset instantly when you flip to keep the flow going."
+            ],
+            "group": "Car"
         },
         {
             "title": "Use Boxmen",
@@ -965,7 +1491,19 @@
             "title": "Drive Mad",
             "image": "gamesimages/drivemad.png",
             "link": "games/drivemad.html",
-            "category": "driving"
+            "category": "driving",
+            "releaseYear": 2022,
+            "difficulty": "Medium",
+            "tagline": "Drive Mad is a physics driving game where you nurse a fragile monster truck over collapsing bridges, see-saws and ramps without flipping it or losing the cargo.",
+            "controls": "W or Up arrow to accelerate, S or Down arrow to reverse/brake",
+            "objective": "Reach the finish line in one piece across dozens of increasingly ridiculous obstacle levels.",
+            "tips": [
+                "Gentle taps beat full throttle \u2014 most flips come from too much speed.",
+                "Let the suspension settle before attempting a jump.",
+                "Reverse and reposition instead of forcing a bad approach.",
+                "Watch the level intro: it usually hints at the gimmick."
+            ],
+            "group": "Car"
         },
         {
             "title": "Particles",
@@ -1013,7 +1551,18 @@
             "title": "Learn To Fly",
             "image": "gamesimages/learntofly.png",
             "link": "games/learntofly.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 2009,
+            "difficulty": "Easy",
+            "tagline": "Learn to Fly is the penguin launch classic: slide off a ramp, adjust your flight, earn cash for distance and buy gliders, rockets and ramps to fly further.",
+            "controls": "Left/Right arrows to tilt, Space to fire rockets (once unlocked)",
+            "objective": "Fly further and higher each attempt, upgrading your gear until the penguin truly learns to fly.",
+            "tips": [
+                "Upgrade the ramp and glider before rockets \u2014 glide efficiency wins early.",
+                "Keep a shallow angle for distance records.",
+                "Fire rockets at the apex of your glide for maximum range.",
+                "Complete the achievement challenges for bonus cash."
+            ]
         },
         {
             "title": "Learn To Fly 2",
@@ -1031,13 +1580,25 @@
             "title": "Tetris",
             "image": "gamesimages/tetris.png",
             "link": "games/tetris.html",
-            "category": "calm"
+            "category": "calm",
+            "releaseYear": 1984,
+            "difficulty": "Medium",
+            "tagline": "Tetris is the timeless puzzle game: rotate falling blocks into complete lines before the stack reaches the top, faster and faster, forever.",
+            "controls": "Left/Right to move, Up to rotate, Down to soft-drop, Space to hard-drop",
+            "objective": "Clear as many lines as you can and survive the rising speed for a high score.",
+            "tips": [
+                "Keep your stack flat \u2014 bumps create holes that are hard to fix.",
+                "Leave one column open as a well for long I-pieces.",
+                "Clearing four lines at once (a Tetris) scores far more than singles.",
+                "Look at the next-piece preview and plan two moves ahead."
+            ]
         },
         {
             "title": "Tag",
             "image": "gamesimages/tag.png",
             "link": "games/tag.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "2Player"
         },
         {
             "title": "Madness: Projct Nexus",
@@ -1097,7 +1658,8 @@
             "title": "Gun Mayhem",
             "image": "gamesimages/gunmayhem.png",
             "link": "games/gunmayhem.html",
-            "category": "shooting"
+            "category": "shooting",
+            "group": "2Player"
         },
         {
             "title": "Flash Chess",
@@ -1115,13 +1677,37 @@
             "title": "Vex 5",
             "image": "gamesimages/vex5.png",
             "link": "games/vex5.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2020,
+            "difficulty": "Hard",
+            "tagline": "Vex 5 is a precision stickman platformer packed with buzzsaws, spikes and disappearing blocks. Run, slide and wall-jump through deadly acts to the exit.",
+            "controls": "WASD or arrows to run and jump, S or Down to slide",
+            "objective": "Reach the end of each act alive. Checkpoints save your progress within a level.",
+            "tips": [
+                "Slide under saws instead of jumping them when the ceiling is low.",
+                "Chain wall-jumps with momentum \u2014 hesitation drops you into spikes.",
+                "Purple blocks vanish and orange blocks bounce; learn their timing.",
+                "Touch every checkpoint, even out of the way ones."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Level Devil",
             "image": "gamesimages/leveldevil.png",
             "link": "games/leveldevil.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2023,
+            "difficulty": "Hard",
+            "tagline": "Level Devil is a troll platformer where the level itself lies to you: floors vanish, spikes sprout and the exit door runs away. Trust nothing.",
+            "controls": "Arrow keys or WASD to move, Space or Up to jump",
+            "objective": "Reach the door in each level while the game invents new ways to betray you.",
+            "tips": [
+                "Expect a trap on literally every step of a first attempt.",
+                "Move slowly and let traps trigger before you commit.",
+                "Memorize trap locations \u2014 each level is short and restartable.",
+                "Sometimes the 'obvious' path is the only real one; sometimes it isn't."
+            ],
+            "group": "Parkour"
         },
         {
             "title": "Tiger Simulator 3D",
@@ -1133,19 +1719,42 @@
             "title": "Flip Runner",
             "image": "gamesimages/fliprunner.png",
             "link": "games/fliprunner.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Parkour"
         },
         {
             "title": "Retro Bowl",
             "image": "gamesimages/retrobowl.png",
             "link": "games/retrobowl.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2020,
+            "difficulty": "Medium",
+            "tagline": "Retro Bowl mixes arcade football with team management: call the shots on offense, then handle drafts, salaries and morale in a pixel-art front office.",
+            "controls": "Click and drag to aim a pass, release to throw; arrow keys or WASD to dodge defenders after the catch",
+            "objective": "Win games, make the playoffs and lift the Retro Bowl while keeping your roster under the salary cap.",
+            "tips": [
+                "Upgrade your QB first \u2014 passing wins games at every difficulty.",
+                "A fast wide receiver beats two slow ones; spend on one star.",
+                "Run the clock when ahead instead of forcing deep passes.",
+                "Trading aging players before they decline keeps the cap healthy."
+            ]
         },
         {
             "title": "Retro Bowl College",
             "image": "gamesimages/retrobowlcollege.png",
             "link": "games/retrobowlcollege.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2023,
+            "difficulty": "Medium",
+            "tagline": "Retro Bowl College takes the formula to campus: recruit high-school prospects, keep players eligible and build a college football dynasty.",
+            "controls": "Click and drag to pass, release to throw; arrows or WASD to juke and run",
+            "objective": "Win games and championships while managing recruiting, GPAs and a constantly graduating roster.",
+            "tips": [
+                "Recruit every season \u2014 your stars graduate whether you like it or not.",
+                "Balance athletics and academics or players go ineligible mid-season.",
+                "Freshmen develop fast, so play them early.",
+                "Short high-percentage passes keep drives alive on higher difficulties."
+            ]
         },
         {
             "title": "Stack",
@@ -1175,19 +1784,22 @@
             "title": "Snow War Io",
             "image": "gamesimages/snowwario.png",
             "link": "games/snowwario.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "IO"
         },
         {
             "title": "Slither IO",
             "image": "gamesimages/slitherio.png",
             "link": "games/slitherio.html",
-            "category": "calm"
+            "category": "calm",
+            "group": "IO"
         },
         {
             "title": "Ragdoll Archers",
             "image": "gamesimages/ragdollarchers.png",
             "link": "games/ragdollarchers.html",
-            "category": "shooting"
+            "category": "shooting",
+            "group": "2Player"
         },
         {
             "title": "Shoot Stickman",
@@ -1211,13 +1823,25 @@
             "title": "Superhot",
             "image": "gamesimages/superhot.png",
             "link": "games/superhot.html",
-            "category": "shooting"
+            "category": "shooting",
+            "releaseYear": 2016,
+            "difficulty": "Medium",
+            "tagline": "SUPERHOT is the shooter where time only moves when you do. Dodge bullets in slow motion, shatter red enemies and turn every level into an action-movie puzzle.",
+            "controls": "WASD to move, mouse to aim, click to shoot, right-click or F to throw/grab weapons",
+            "objective": "Clear every red enemy in each level. Time freezes when you stand still.",
+            "tips": [
+                "Stand still to think \u2014 the whole game rewards planning over reflexes.",
+                "Throw empty guns at armed enemies to stun and disarm them.",
+                "Watch for off-screen spawns marked by the red flash.",
+                "Punches and thrown bottles save ammo and buy time."
+            ]
         },
         {
             "title": "Kart Bros",
             "image": "gamesimages/kartbros.png",
             "link": "games/kartbros.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Geometry Wave",
@@ -1241,7 +1865,8 @@
             "title": "Burnin Rubber 5",
             "image": "gamesimages/burninrubber5.png",
             "link": "games/burninrubber5.html",
-            "category": "driving"
+            "category": "driving",
+            "group": "Car"
         },
         {
             "title": "Wheelie Life",
@@ -1259,7 +1884,8 @@
             "title": "Five Nights At Epsitens",
             "image": "gamesimages/fnae.png",
             "link": "games/fnae.html",
-            "category": "skill"
+            "category": "skill",
+            "group": "Horror"
         },
         {
             "title": "Fly the Plane",
@@ -1289,13 +1915,35 @@
             "title": "Friday Night Funkin",
             "image": "gamesimages/fridaynightfunkin.png",
             "link": "games/fridaynightfunkin.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2020,
+            "difficulty": "Medium",
+            "tagline": "Friday Night Funkin is a rhythm battle game: match arrow notes to the beat in rap battles against a cast of bizarre opponents to win over your girlfriend's dad.",
+            "controls": "Arrow keys (or WASD) to hit notes as they reach the top arrows",
+            "objective": "Out-score each opponent by hitting notes in time across every song and week.",
+            "tips": [
+                "Start on Easy to learn a chart, then move up.",
+                "Watch the note lanes, not the characters \u2014 the art is a distraction.",
+                "Keep your combo alive; misses hurt more than slow sections help.",
+                "Use two hands on Hard instead of one-finger tapping."
+            ]
         },
         {
             "title": "Geometry Dash",
             "image": "gamesimages/geometrydash.png",
             "link": "games/geometrydash.html",
-            "category": "skill"
+            "category": "skill",
+            "releaseYear": 2013,
+            "difficulty": "Hard",
+            "tagline": "Geometry Dash is a one-button rhythm platformer where you jump, fly and flip through spike-filled levels synced to pounding soundtracks.",
+            "controls": "Space, Up arrow or mouse click to jump; hold to keep jumping/flying",
+            "objective": "Reach the end of each level without hitting spikes or walls \u2014 one mistake restarts the run.",
+            "tips": [
+                "Use practice mode to place checkpoints and learn the layout section by section.",
+                "Tap to the beat \u2014 obstacle timing matches the music.",
+                "Don't watch your icon; watch the obstacles ahead of it.",
+                "Short controlled taps beat panic-holding on ship sections."
+            ]
         },
         {
             "title": "Mad GunZ",
